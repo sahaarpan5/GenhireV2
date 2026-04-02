@@ -1,0 +1,854 @@
+04-01 18:22:51.219  1953  2062 I WindowManager: ANR in Window{2665e51 u0 com.genhire/com.genhire.MainActivity}. Reason:2665e51 com.genhire/com.genhire.MainActivity (server) is not responding. Waited 5001ms for MotionEvent
+04-01 18:22:51.278  1953  2062 I WindowManager: Dump window# Window{2665e51 u0 com.genhire/com.genhire.MainActivity}  Status#isFocused: true hasDrawn: true canReceiveKeys: true canReceiveKeysReason: fromTouch= false isVisibleRequestedOrAdding=true mViewVisibility=0 mRemoveOnExit=false flags=-2122252032 appWindowsAreFocusable=true canReceiveTouchInput=true displayIsOnTop=true displayIsTrusted=true isDrawn: true isDrawFinishedLw: true isAnimatingLw: false isDisplayed: true isReadyForDisplay: true isOnScreen: true isVisibleNow: true isWinVisibleLw: true isVisible: true isVisibleByPolicy: true isObscuringDisplay: true isImeLayeringTarget: true isInputMethodTarget:  needsZBoost: false shouldMagnify: true
+04-01 18:22:51.280  1953  2062 I WindowManager: Dump Win No.7 win= Window{2665e51 u0 com.genhire/com.genhire.MainActivity}, flags=0x81810100, canReceive=true, canReceiveKeysReason: fromTouch= false isVisibleRequestedOrAdding=true mViewVisibility=0 mRemoveOnExit=false flags=-2122252032 appWindowsAreFocusable=true canReceiveTouchInput=true displayIsOnTop=true displayIsTrusted=true, ViewVisibility=0, mWinAnimator=WindowStateAnimator{b2ab7c com.genhire/com.genhire.MainActivity}
+04-01 18:22:51.280  1953  2062 I WindowManager:  win.mActivityRecord=ActivityRecord{fed1639 u0 com.genhire/.MainActivity} t17722 d0}, isSurfaceShowing()=true, isFreezingScreen()=false, isDestroyable()=false, isClientVisible(()=true, isSleeping(()=false, isInHistory()=true, isFocusable()=true
+04-01 18:22:51.280  1953  2062 I WindowManager: , DrawState=4, mSurfaceController=Surface(name=com.genhire/com.genhire.MainActivity)/@0xa3afc05
+04-01 18:22:51.896  4625  4627 F com.genhire: logging.cc:197] 5effee5000-5efff05000 rw-s 5effee5000 00:11 25385                        /dev/mali0
+04-01 18:22:51.896  4625  4627 F com.genhire: logging.cc:197] 5efff05000-5efff25000 rw-s 5efff05000 00:11 25385                        /dev/mali0
+04-01 18:22:51.896  4625  4627 F com.genhire: logging.cc:197] 5efff25000-5efff45000 rw-s 5efff25000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5efff45000-5efff65000 rw-s 5efff45000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5efff65000-5efff85000 rw-s 5efff65000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5efff85000-5efffc5000 rw-s 5efff85000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5efffc5000-5efffc6000 rw-s 5efffc5000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5efffc6000-5efffc7000 rw-s 5efffc6000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5efffc7000-5efffc8000 rw-s 5efffc7000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5efffd1000-5efffd2000 rw-s 5efffd1000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5effff0000-5effffa000 rw-s 5effff0000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5effffa000-5effffb000 rw-s 5effffa000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 5effffe000-5efffff000 rw-s 5effffe000 00:11 25385                        /dev/mali0
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6800000000-6800004000 ---p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6800004000-680013c000 rw-p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 680013c000-6800204000 ---p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6800204000-680020c000 rw-p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 680020c000-6c00000000 ---p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c1f674000-6c1ff45000 r--s 0000f000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.webview-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c1ff45000-6c20cd8000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c20cd8000-6c20cda000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c20cda000-6c2130c000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c2130c000-6c2130e000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c2130e000-6c21f45000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c21f45000-6c21f46000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c21f46000-6c22042000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4718]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c22042000-6c22044000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c22044000-6c22140000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4717]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c22140000-6c22141000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c2324b000-6c2324c000 ---p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c2324c000-6c2324d000 rw-p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c2324d000-6c2344c000 ---p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6c2344c000-6c2344d000 rw-p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6c2344d000-6e2324b000 ---p 00000000 00:00 0                              [anon:partition_alloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e24355000-6e2461f000 r--p 00af9000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.webview-IgGzGVrTixq8HwU2cvw5UQ=
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] =/base.apk
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2461f000-6e2721f000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e278f7000-6e285f6000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e285f6000-6e285f8000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e285f8000-6e28980000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e28980000-6e28982000 rw-p 00
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e28982000-6e298f7000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e298f7000-6e298f8000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e298f8000-6e298f9000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4701]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e298f9000-6e29a00000 rw-p 00000000 00:00 0                        
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197]       [anon:stack_and_tls:4701]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e29a00000-6e29a02000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e29a02000-6e29a03000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4710]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e29a03000-6e29b0a000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4710]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e29b0a000-6e29b0b000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e29b0b000-6e2a2e0000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2a2e0000-6e2a2e2000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2a2e2000-6e2ab0b000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2ab0b000-6e2ab0c000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2ab0c000-6e2ab0d000 ---p 00000000 00:00 0                              [an
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] on:stack_and_tls:4699]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2ab0d000-6e2ac14000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4699]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2ac14000-6e2ac15000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2ac15000-6e2b390000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2b390000-6e2b392000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2b392000-6e2bc15000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2bc15000-6e2bd15000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2bd15000-6e2c716000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2c716000-6e2c718000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2c718000-6e2cd15000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e2cd15000-6e2d208000 r--s 00000000 fe:2e 358602                         /da
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] ta/data/com.google.android.gms/files/fonts/opentype/Noto_COLR_Emoji_Compat-400-100_0-0_0.ttf
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2d208000-6e2d65e000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2d65e000-6e2d660000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2d660000-6e2e5d0000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2e5d0000-6e2e5d2000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2e5d2000-6e2f208000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2f208000-6e2f306000 r--p 00000000 00:1c 5                              /dev/binderfs/hwbinder
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2f306000-6e2f328000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2f328000-6e2f32a000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e2f32a000-6e30e2e000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e30e2e000-6e30e30000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e30e30000-6e31306000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31306000-6e31307000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31307000-6e31308000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4676]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31308000-6e31403000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4676]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31403000-6e31405000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31405000-6e31406000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4675]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31406000-6e31501000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4675]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31501000-6e31502000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e315fd000-6e315fe000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e315fe000-6e316fa000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4698]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e316fa000-6e316fc000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e316fc000-6e316fd000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4696]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e316fd000-6e31804000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4696]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31804000-6e31805000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31805000-6e31cf8000 r--s 00000000 fe:2e 358602                         /data/data/com.google.android.gms/files/fonts/opentype/Noto_COLR_Emoji_Compat-400-100_0-0_0.ttf
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31cf8000-6e31cf9000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31cf9000-6e31cfa000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4693]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31cfa000-6e31e01000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4693]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31e01000-6e31e03000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31e03000-6e31eff000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4691]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31eff000-6e31f00000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e31f00000-6e32e00000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e32e0c000-6e32f0a000 r--p 00000000 00:1c 5                              /dev/binderfs/hwbinder
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e32f0a000-6e3350a000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3350a000-6e33ff2000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e33ff2000-6e33ff4000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e33ff4000-6e347b0000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e347b0000-6e347b2000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e347b2000-6e35ece000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e35ece000-6e35ed0000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e35ed0000-6e3650a000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3650a000-6e3650b000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3650b000-6e36607000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4673]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e36607000-6e36608000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e36608000-6e36eb4000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e36eb4000-6e36eb6000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e36eb6000-6e37608000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e37608000-6e37609000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e37609000-6e37705000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4672]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e37705000-6e37706000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e37706000-6e377f0000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e377f0000-6e377f2000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e377f2000-6e38706000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e38706000-6e38707000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e38707000-6e38803000 rw-p 00000000 00:00 0                              [an
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] on:stack_and_tls:4671]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e38803000-6e38804000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e38804000-6e388ca000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e388ca000-6e388cc000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e388cc000-6e39804000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e39804000-6e39805000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:216] 6e39805000-6e39901000 rw-p 0000
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 0000 00:00 0                              [anon:stack_and_tls:4670]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e39901000-6e39902000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e39902000-6e3a578000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3a578000-6e3a57a000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3a57a000-6e3a902000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3a902000-6e3a903000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3a903000-6e3a9ff000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4669]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3a9ff000-6e3aa00000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3aa00000-6e3b3a8000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3b3a8000-6e3b3aa000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3b3aa000-6e3ba00000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3ba00000-6e3ba01000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3ba01000-6e3bafd000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4668]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3bafd000-6e3baff000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3baff000-6e3bbfb000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4667]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3bbfb000-6e3bbfc000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3bbfc000-6e3c046000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3c046000-6e3c048000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3c048000-6e3cbfc000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3cbfc000-6e3cbfd000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3cbfd000-6e3ccf9000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4666]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3ccf9000-6e3ccfb000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3ccfb000-6e3cdf7000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4665]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3cdf7000-6e3cdf8000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3cdf8000-6e3ce26000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3ce26000-6e3ce28000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3ce28000-6e3ddf8000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3ddf8000-6e3ddf9000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3ddf9000-6e3def5000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4664]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3def5000-6e3def6000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3def6000-6e3e4f2000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3e4f2000-6e3e4f4000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3e4f4000-6e3eef6000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3eef6000-6e3eef7000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3eef7000-6e3eef8000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4662]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3eef8000-6e3efff000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4662]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3efff000-6e3f000000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3f000000-6e3fab2000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3fab2000-6e3fab4000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e3fab4000-6e40000000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e40000000-6e80000000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6e80000000-6ec0000000 rw-p 00000000 00:00 0                              [anon:dalvik-LinearAlloc]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec00e1000-6ec00e2000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec00e2000-6ec00e3000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4661]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec00e3000-6ec01ea000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4661]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec01ea000-6ec01eb000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec01eb000-6ec0f6e000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec0f6e000-6ec0f70000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec0f70000-6ec11eb000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec11eb000-6ec11ec000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec11ec000-6ec11ed000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4660]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec11ed000-6ec12f4000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4660]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec12f4000-6ec12f5000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec12f5000-6ec1c42000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec1c42000-6ec1c44000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec1c44000-6ec22f5000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec22f5000-6ec22f6000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec22f6000-6ec22f7000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4659]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec22f7000-6ec23fe000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4659]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec23fe000-6ec23ff000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec23ff000-6ec2a96000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec2a96000-6ec2a98000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec2a98000-6ec33ff000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec33ff000-6ec3400000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec3400000-6ec3401000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4656]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec3401000-6ec3508000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4656]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec3508000-6ec3509000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec4613000-6ec5366000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec5366000-6ec5368000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec5368000-6ec5613000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec6613000-6ec7248000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec7248000-6ec724a000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec724a000-6ec7fc6000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec7fc6000-6ec7fc8000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec7fc8000-6ec8f28000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec8f28000-6ec8f2a000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec8f2a000-6ec9613000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec9613000-6ec998a000 r-xp 012e4000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec998a000-6ec998d000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec998d000-6ec999c000 r--p 0165a000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec999c000-6ec999f000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec999f000-6ec99a0000 rw-p 01668000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec99a0000-6ec99a4000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ec9a00000-6ecd000000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ecd0fa000-6ecdeae000 ---p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ecdeae000-6ecdeb0000 rw-p 00000000 00:00 0 
+04-01 18:22:51.897  4625  4627 F com.genhire: logging.cc:197] 6ecdeb0000-6ece0fa000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ece0fa000-6ece970000 r-xp 008bc000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ece970000-6ece973000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ece973000-6ece9af000 r--p 01131000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ece9af000-6ece9b2000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ece9b2000-6ece9b3000 rw-p 0116c000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ece9b3000-6ece9b4000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ecea00000-6ecf400000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ecf4a8000-6ecf542000 r-xp 01da8000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ecf542000-6ecf545000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ecf545000-6ecf54a000 r--p 01e41000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ecf54a000-6ecf54d000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ecf54d000-6ecf54e000 rw-p 01e45000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ecf54e000-6ecf54f000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ecf600000-6ed1c00000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed1c3f000-6ed1dea000 r-xp 01bec000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed1dea000-6ed1ded000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed1ded000-6ed1dfb000 r--p 01d96000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed1dfb000-6ed1dfe000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed1dfe000-6ed1dff000 rw-p 01da3000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed1dff000-6ed1e00000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed1e00000-6ed5800000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed5887000-6ed5bce000 r-xp 01890000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed5bce000-6ed5bd1000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed5bd1000-6ed5be6000 r--p 01bd6000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed5be6000-6ed5be9000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed5be9000-6ed5bea000 rw-p 01bea000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed5bea000-6ed5beb000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed5c00000-6ed9600000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ed9607000-6eda73e000 r-xp 01e48000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eda73e000-6eda741000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eda741000-6eda787000 r--p 02f7e000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eda787000-6eda78a000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eda78a000-6eda78c000 rw-p 02fc3000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eda78c000-6eda7a3000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eda800000-6eddc00000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eddc63000-6eddc64000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eddc64000-6eddc65000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4654]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eddc65000-6eddd6c000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4654]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eddd6c000-6eddd6d000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edde7f000-6edde80000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edde80000-6edde81000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4651]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edde81000-6eddf7c000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4651]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eddf7c000-6eddf7e000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eddf7e000-6eddf7f000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4649]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eddf7f000-6ede086000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4649]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ede086000-6ede087000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ede087000-6ede160000 r-xp 01718000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ede160000-6ede163000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ede163000-6ede169000 r--p 017f0000 fe:2e 477807       
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197]                   /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ede169000-6ede16c000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ede16c000-6ede16d000 rw-p 017f5000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ede16d000-6ede17d000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ede200000-6edf600000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edf62d000-6edf6c8000 r--p 01170000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edf6c8000-6edf6cb000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edf6cb000-6edf763000 r-xp 0120a000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edf763000-6edf766000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edf766000-6edf770000 r--p 012a1000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edf770000-6edf773000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edf773000-6edf775000 rw-p 012aa000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edf775000-6edf77c000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6edf800000-6ee2400000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee2490000-6ee249c000 r--p 00000000 fe:2e 468415                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.webview-IgGzGVrTixq8HwU2cvw5UQ==/oat/arm64/base.odex
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee249c000-6ee24a4000 r-xp 0000c000 fe:2e 468415                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.webview-IgGzGVrTixq8HwU2cvw5UQ==/oat/arm64/base.odex
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee24a4000-6ee24bf000 rw-p 00000000 fe:2e 468317                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.webview-IgGzGVrTixq8HwU2cvw5UQ==/oat/arm64/base.vdex
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee24cb000-6ee24cc000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee24cc000-6ee24cd000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4647]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee24cd000-6ee25d4000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4647]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee25d4000-6ee25d5000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee25d5000-6ee3344000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee3344000-6ee3346000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee3346000-6ee36ce000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee36ce000-6ee36d0000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee36d0000-6ee4a1e000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee4a1e000-6ee4a20000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee4a20000-6ee55d5000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee55d5000-6ee5726000 r--s 0ab58000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee5726000-6ee5f3a000 r--p 00000000 00:00 0                              [anon:dalvik-classes19.dex extracted in memory from /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee5f3a000-6ee6a14000 r--p 00000000 00:00 0                              [anon:dalvik-classes.dex extracted in memory from /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee6a14000-6ee715a000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee715a000-6ee715c000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee715c000-6ee81e0000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee81e0000-6ee81e2000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee81e2000-6ee9730000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee9730000-6ee9732000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee9732000-6ee9c60000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee9c60000-6ee9c62000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ee9c62000-6eeb440000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eeb440000-6eeb442000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eeb442000-6eec384000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eec384000-6eec386000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eec386000-6eecda0000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eecda0000-6eecda2000 rw-p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eecda2000-6eeda14000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6eeda14000-6ef71b8000 r-xp 00dc8000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.webview-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ef71b8000-6ef71bb000 ---p 00000000 00:00 0                              [anon:libwebview reservation]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef71bb000-6ef73e6000 r--p 00000000 fe:2e 475497                         /data/misc/shared_relro/libwebviewchromium64.relro
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73e6000-6ef73e7000 r--p 0a796000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.web
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] view-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73e7000-6ef73e9000 r--p 0022c000 fe:2e 475497                         /data/misc/shared_relro/libwebviewchromium64.relro
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73e9000-6ef73ea000 r--p 0a799000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.web
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] view-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73ea000-6ef73ec000 r--p 0022f000 fe:2e 475497                         /data/misc/shared_relro/libwebviewchromium64.relro
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73ec000-6ef73ed000 r--p 0a79c000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.web
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] view-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73ed000-6ef73ee000 r--p 00232000 fe:2e 475497                         /data/misc/shared_relro/libwebviewchromium64.relro
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73ee000-6ef73f0000 r--p 0a79e000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.web
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] view-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73f0000-6ef73f1000 r--p 00235000 fe:2e 475497                         /data/misc/shared_relro/libwebviewchromium64.relro
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73f1000-6ef73f3000 r--p 0a7a1000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.web
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] view-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73f3000-6ef73f5000 r--p 00238000 fe:2e 475497                         /data/misc/shared_relro/libwebviewchromium64.relro
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73f5000-6ef73f8000 r--p 0a7a5000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.web
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] view-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73f8000-6ef73f9000 r--p 0023d000 fe:2e 475497                         /data/misc/shared_relro/libwebviewchromium64.relro
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6ef73f9000-6ef73fa000 r--p 0a7a9000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.web
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] view-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ef73fa000-6ef73fb000 r--p 0023f000 fe:2e 475497                         /data/misc/shared_relro/libwebviewchromium64.relro
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ef73fb000-6ef7400000 ---p 00000000 00:00 0                              [anon:libwebview reservation]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ef7400000-6ef74e5000 rw-p 0a7b4000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.webview-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ef74e5000-6ef779b000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6ef779b000-6f2da14000 ---p 00000000 00:00 0                              [anon:libwebview reservation]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f2da14000-6f2e146000 r--p 00000000 fe:0e 13354752                       /vendor/lib64/egl/libGLES_mali.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f2e146000-6f3026b000 r-xp 00732000 fe:0e 13354752                       /vendor/lib64/egl/libGLES_mali.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3026b000-6f30367000 r--p 02857000 fe:0e 13354752                       /vendor/lib64/egl/libGLES_mali.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f30367000-6f303c1000 rw-p 02952000 fe:0e 13354752                       /vendor/lib64/egl/libGLES_mali.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f303c1000-6f3041e000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3045d000-6f3045e000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3045e000-6f3045f000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4641]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3045f000-6f3055a000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4641]
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3055a000-6f3055b000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3055b000-6f3055c000 r--p 00000000 fe:0c 17711997                       /system/lib64/libwebviewchromium_loader.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3055c000-6f3055d000 r-xp 00001000 fe:0c 17711997                       /system/lib64/libwebviewchromium_loader.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3055d000-6f3055e000 r--p 00002000 fe:0c 17711997                       /system/lib64/libwebviewchromium_loader.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3055e000-6f3055f000 rw-p 00002000 fe:0c 17711997                       /system/lib64/libwebviewchromium_loader.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f30588000-6f3058d000 r--p 00000000 fe:0c 16684057                       /system/lib64/libcompiler_rt.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3058d000-6f30596000 r-xp 00005000 fe:0c 16684057                       /system/lib64/libcompiler_rt.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f30596000-6f30597000 r--p 0000e000 fe:0c 16684057                       /system/lib64/libcompiler_rt.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f305cc000-6f305d5000 r--p 00000000 07:b0 169                            /apex/com.android.vndk.v33/lib64/libdmabufheap.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f305d5000-6f305e0000 r-xp 00009000 07:b0 169                            /apex/com.android.vndk.v33/lib64/libdmabufheap.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f305e0000-6f305e1000 r--p 00014000 07:b0 169                            /apex/com.android.vndk.v33/lib64/libdmabufheap.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f305e1000-6f305e2000 rw-p 00014000 07:b0 169                            /apex/com.android.vndk.v33/lib64/libdmabufheap.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f30600000-6f32200000 ---p 00000000 00:00 0 
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3226c000-6f32271000 r--p 00000000 07:b0 116                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.allocator-V1-ndk.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f32271000-6f32274000 r-xp 00005000 07:b0 116                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.allocator-V1-ndk.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f32274000-6f32275000 r--p 00008000 07:b0 116                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.allocator-V1-ndk.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f32275000-6f32276000 rw-p 00008000 07:b0 116                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.allocator-V1-ndk.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3228d000-6f32295000 r--p 00000000 07:b0 195                            /apex/com.android.vndk.v33/lib64/libz.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f32295000-6f322a8000 r-xp 00008000 07:b0 195                            /apex/com.android.vndk.v33/lib64/libz.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f322a8000-6f322a9000 r--p 0001b000 07:b0 195                            /apex/com.android.vndk.v33/lib64/libz.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f322a9000-6f322aa000 rw-p 0001b000 07:b0 195                            /apex/com.android.vndk.v33/lib64/libz.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f322d3000-6f32314000 r--p 00000000 07:b0 175                            /apex/com.android.vndk.v33/lib64/libhidlbase.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f32314000-6f3236c000 r-xp 00041000 07:b0 175                            /apex/com.android.vndk.v33/lib64/libhidlbase.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] 6f3236c000-6f32377000 r--p 00099000 07:b0 175                            /apex/com.android.vndk.v33/lib64/libhidlbase.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6f32377000-6f32378000 rw-p 000a3000 07:b0 175                            /apex/com.android.vndk.v33/lib64/libhidlbase.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6f323d9000-6f323da000 r--p 00000000 07:b0 120                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.com
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] mon@1.2.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6f323da000-6f323db000 r-xp 00001000 07:b0 120                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common@1.2.so
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:216] 6f323db000-6f323dc000 r--p 00002000 07:b0 120                            /apex/com.android.vndk.v33/lib64/andr
+04-01 18:22:51.898  4625  4627 F com.genhire: logging.cc:197] oid.hardware.graphics.common@1.2.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:216] 6f32400000-6f33600000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:216] 6f33655000-6f3365d000 r--p 00000000 07:b0 172                            /apex/com.android.vndk.v33/lib64/libgralloctypes.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:216] 6f3365d000-6f33668000 r-xp 00008000 07:b0 172                            /apex/com.and
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] roid.vndk.v33/lib64/libgralloctypes.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f33668000-6f33669000 r--p 00013000 07:b0 172                            /apex/com.android.vndk.v33/lib64/libgralloctypes.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f33669000-6f3366a000 rw-p 00013000 07:b0 172                            /apex/com.android.vndk.v33/lib64/libgralloctypes.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f336ab000-6f336ac000 r--p 00000000 07:b0 174                            /apex/com.android.vndk.v33/lib64/libhardware.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f336ac000-6f336ad000 r-xp 00001000 07:b0 174                            /apex/com.android.vndk.v33/lib64/libhardware.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f336ad000-6f336ae000 r--p 00002000 07:b0 174                            /apex/com.android.vndk.v33/lib64/libhardware.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f336ec000-6f33718000 r--p 00000000 fe:0e 13355504                       /vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-arm.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f33718000-6f3379a000 r-xp 0002c000 fe:0e 13355504                       /vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-arm.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3379a000-6f3379c000 r--p 000ae000 fe:0e 13355504                       /vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-arm.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3379c000-6f3379e000 rw-p 000af000 fe:0e 13355504                       /vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-arm.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3379e000-6f337a0000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f33800000-6f36600000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36657000-6f36658000 r--p 00000000 07:b0 119                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common@1.1.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36658000-6f36659000 r-xp 00001000 07:b0 119                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common@1.1.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36659000-6f3665a000 r--p 00002000 07:b0 119                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common@1.1.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3669a000-6f3669d000 r--p 00000000 07:b0 117                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common-V3-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3669d000-6f366a0000 r-xp 00003000 07:b0 117                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common-V3-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f366a0000-6f366a1000 r--p 00006000 07:b0 117                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common-V3-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f366a1000-6f366a2000 rw-p 00006000 07:b0 117                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common-V3-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f366f6000-6f366f7000 r--p 00000000 07:b0 177                            /apex/com.android.vndk.v33/lib64/libion.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f366f7000-6f366f9000 r-xp 00001000 07:b0 177                            /apex/com.android.vndk.v33/lib64/libion.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f366f9000-6f366fa000 r--p 00003000 07:b0 177                            /apex/com.android.vndk.v33/lib64/libion.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f366fa000-6f366fb000 rw-p 00003000 07:b0 177                            /apex/com.android.vndk.v33/lib64/libion.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36708000-6f36751000 r--p 00000000 07:b0 165                            /apex/com.android.vndk.v33/lib64/libc++.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36751000-6f367af000 r-xp 00049000 07:b0 165                            /apex/com.android.vndk.v33/lib64/libc++.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f367af000-6f367b6000 r--p 000a7000 07:b0 165                            /apex/com.android.vndk.v33/lib64/libc++.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f367b6000-6f367b7000 rw-p 000ad000 07:b0 165                            /apex/com.android.vndk.v33/lib64/libc++.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f367b7000-6f367ba000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f367c0000-6f367d2000 r--p 00000000 07:b0 161                            /apex/com.android.vndk.v33/lib64/libbase.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f367d2000-6f367fe000 r-xp 00012000 07:b0 161                            /apex/com.android.vndk.v33/lib64/libbase.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f367fe000-6f367ff000 r--p 0003e000 07:b0 161                            /apex/com.android.vndk.v33/lib64/libbase.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f367ff000-6f36800000 rw-p 0003e000 07:b0 161                            /apex/com.android.vndk.v33/lib64/libbase.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36822000-6f36830000 r--p 00000000 07:b0 125                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.mapper@4.0.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36830000-6f3683d000 r-xp 0000e000 07:b0 125                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.mapper@4.0.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3683d000-6f3683f000 r--p 0001b000 07:b0 125                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.mapper@4.0.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3683f000-6f36840000 rw-p 0001c000 07:b0 125                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.mapper@4.0.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36846000-6f3684f000 r--p 00000000 07:b0 168                            /apex/com.android.vndk.v33/lib64/libcutils.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3684f000-6f3685a000 r-xp 00009000 07:b0 168                            /apex/com.android.vndk.v33/lib64/libcutils.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3685a000-6f3685c000 r--p 00014000 07:b0 168                            /apex/com.android.vndk.v33/lib64/libcutils.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3685c000-6f3685d000 rw-p 00015000 07:b0 168                            /apex/com.android.vndk.v33/lib64/libcutils.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f368a1000-6f368af000 r--p 00000000 07:b0 192                            /apex/com.android.vndk.v33/lib64/libutils.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f368af000-6f368bc000 r-xp 0000e000 07:b0 192                            /apex/com.android.vndk.v33/lib64/libutils.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f368bc000-6f368bd000 r--p 0001b000 07:b0 192                            /apex/com.android.vndk.v33/lib64/libutils.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f368bd000-6f368be000 rw-p 0001b000 07:b0 192                            /apex/com.android.vndk.v33/lib64/libutils.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f368e1000-6f368e2000 r--p 00000000 fe:0e 12457885                       /vendor/lib64/arm.graphics-V3-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f368e2000-6f368e3000 r-xp 00001000 fe:0e 12457885                       /vendor/lib64/arm.graphics-V3-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f368e3000-6f368e4000 r--p 00002000 fe:0e 12457885                       /vendor/lib64/arm.graphics-V3-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3692b000-6f3692c000 r--p 00000000 07:b0 118                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common@1.0.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3692c000-6f3692d000 r-xp 00001000 07:b0 118                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common@1.0.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3692d000-6f3692e000 r--p 00002000 07:b0 118                            /apex/com.android.vndk.v33/lib64/android.hardware.graphics.common@1.0.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36942000-6f36944000 r--p 00000000 07:b0 111                            /apex/com.android.vndk.v33/lib64/android.hardware.common-V2-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36944000-6f36946000 r-xp 00002000 07:b0 111                            /apex/com.android.vndk.v33/lib64/android.hardware.common-V2-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36946000-6f36947000 r--p 00004000 07:b0 111                            /apex/com.android.vndk.v33/lib64/android.hardware.common-V2-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36947000-6f36948000 rw-p 00004000 07:b0 111                            /apex/com.android.vndk.v33/lib64/android.hardware.common-V2-ndk.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3699b000-6f369a2000 r--p 00000000 fe:0e 15179603                       /vendor/lib64/libdrm.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f369a2000-6f369b0000 r-xp 00007000 fe:0e 15179603                       /vendor/lib64/libdrm.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f369b0000-6f369b1000 r--p 00015000 fe:0e 15179603                       /vendor/lib64/libdrm.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f369b1000-6f369b2000 rw-p 00015000 fe:0e 15179603                       /vendor/lib64/libdrm.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f369b2000-6f369b3000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f369d3000-6f36cd3000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f36cd3000-6f39600000 r--s 0071e000 fe:0c 12137984                       /system/framework/framework-res.apk
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39600000-6f39c00000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39c19000-6f39d00000 r--s 00004000 fe:0d 2239817                        /system_ext/framework/unisoc-res.apk
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39d00000-6f39f80000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39f80000-6f39f86000 r--p 00000000 fe:0c 17546253                       /system/lib64/librs_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39f86000-6f39f92000 r-xp 00006000 fe:0c 17546253                       /system/lib64/librs_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39f92000-6f39f94000 r--p 00012000 fe:0c 17546253                       /system/lib64/librs_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39f94000-6f39f95000 rw-p 00013000 fe:0c 17546253                       /system/lib64/librs_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39fc1000-6f39fcd000 r--p 00000000 fe:0c 17546257                       /system/lib64/librtp_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39fcd000-6f39ffc000 r-xp 0000c000 fe:0c 17546257                       /system/lib64/librtp_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39ffc000-6f39ffe000 r--p 0003b000 fe:0c 17546257                       /system/lib64/librtp_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f39ffe000-6f39fff000 rw-p 0003c000 fe:0c 17546257                       /system/lib64/librtp_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a01c000-6f3a055000 r--p 00000000 fe:0c 17196735                       /system/lib64/libmedia_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a055000-6f3a0ae000 r-xp 00039000 fe:0c 17196735                       /system/lib64/libmedia_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a0ae000-6f3a0b5000 r--p 00092000 fe:0c 17196735                       /system/lib64/libmedia_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a0b5000-6f3a0b6000 rw-p 00098000 fe:0c 17196735                       /system/lib64/libmedia_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a0b6000-6f3a0b7000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a119000-6f3a123000 r--p 00000000 fe:0c 17639361                       /system/lib64/libstagefright_amrnb_common.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a123000-6f3a12d000 r-xp 0000a000 fe:0c 17639361                       /system/lib64/libstagefright_amrnb_common.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a12d000-6f3a12e000 r--p 00014000 fe:0c 17639361                       /system/lib64/libstagefright_amrnb_common.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a140000-6f3a145000 r--p 00000000 fe:0c 16212625                       /system/lib64/libaudioeffect_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a145000-6f3a14e000 r-xp 00005000 fe:0c 16212625                       /system/lib64/libaudioeffect_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a14e000-6f3a14f000 r--p 0000e000 fe:0c 16212625                       /system/lib64/libaudioeffect_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a14f000-6f3a150000 rw-p 0000e000 fe:0c 16212625                       /system/lib64/libaudioeffect_jni.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a181000-6f3a18b000 r--p 00000000 fe:0c 17546353                       /system/lib64/libsoundpool.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a18b000-6f3a199000 r-xp 0000a000 fe:0c 17546353                       /system/lib64/libsoundpool.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a199000-6f3a19a000 r--p 00018000 fe:0c 17546353                       /system/lib64/libsoundpool.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a19a000-6f3a19c000 rw-p 00018000 fe:0c 17546353                       /system/lib64/libsoundpool.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a1e7000-6f3a1ea000 r--p 00000000 fe:0c 17196769                       /system/lib64/libmediadrmmetrics_consumer.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a1ea000-6f3a1ed000 r-xp 00003000 fe:0c 17196769                       /system/lib64/libmediadrmmetrics_consumer.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a1ed000-6f3a1ee000 r--p 00006000 fe:0c 17196769                       /system/lib64/libmediadrmmetrics_consumer.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3a200000-6f3d800000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3d867000-6f3d93a000 r--p 00000000 fe:0c 17478208                       /system/lib64/libprotobuf-cpp-full.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3d93a000-6f3da8b000 r-xp 000d3000 fe:0c 17478208                       /system/lib64/libprotobuf-cpp-full.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3da8b000-6f3da96000 r--p 00224000 fe:0c 17478208                       /system/lib64/libprotobuf-cpp-full.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3da96000-6f3da97000 rw-p 0022e000 fe:0c 17478208                       /system/lib64/libprotobuf-cpp-full.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3da97000-6f3da98000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3db0a000-6f3db80000 r--p 00000000 fe:0c 17546341                       /system/lib64/libsonivox.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3db80000-6f3db9b000 r-xp 00076000 fe:0c 17546341                       /system/lib64/libsonivox.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3db9b000-6f3db9c000 r--p 00091000 fe:0c 17546341                       /system/lib64/libsonivox.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3db9c000-6f3db9d000 rw-p 00091000 fe:0c 17546341                       /system/lib64/libsonivox.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3db9d000-6f3dba4000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3dbd3000-6f3dbd4000 r--p 00000000 fe:0c 15717620                       /system/lib64/libasyncio.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3dbd4000-6f3dbd5000 r-xp 00001000 fe:0c 15717620                       /system/lib64/libasyncio.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3dbd5000-6f3dbd6000 r--p 00002000 fe:0c 15717620                       /system/lib64/libasyncio.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:216] 6f3dc00000-6f3f800000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:216] 6f3f803000-6f3fa47000 r--p 00000000 fe:0c 8480088                        /system/fonts/Roboto-Regular.ttf
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:216] 6f3fa47000-6f3fac5000 r--p 00000000 fe:20 178                            /apex/com.android.conscrypt/lib6
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 4/libcrypto.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:216] 6f3fac5000-6f3fac7000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:216] 6f3fac7000-6f3fad7000 r-xp 00080000 fe:20 178                            /apex/com.android.conscrypt/lib64/libcrypto.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:216] 6f3fad7000-6f3fb45000 --xp 00090000 fe:20 178                            /apex/com.android.
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] conscrypt/lib64/libcrypto.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fb45000-6f3fbc7000 r-xp 000fe000 fe:20 178                            /apex/com.android.conscrypt/lib64/libcrypto.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fbc7000-6f3fbd7000 r--p 00180000 fe:20 178                            /apex/com.android.conscrypt/lib64/libcrypto.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fbd7000-6f3fbd8000 rw-p 00190000 fe:20 178                            /apex/com.android.conscrypt/lib64/libcrypto.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fbd8000-6f3fbe0000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fc0d000-6f3fc88000 r--p 00000000 fe:20 177                            /apex/com.android.conscrypt/lib64/libc++.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fc88000-6f3fc8b000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fc8b000-6f3fd17000 r-xp 0007a000 fe:20 177                            /apex/com.android.conscrypt/lib64/libc++.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fd17000-6f3fd1a000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fd1a000-6f3fd22000 r--p 00105000 fe:20 177                            /apex/com.android.conscrypt/lib64/libc++.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fd22000-6f3fd25000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fd25000-6f3fd26000 rw-p 0010c000 fe:20 177                            /apex/com.android.conscrypt/lib64/libc++.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fd26000-6f3fd2d000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fd81000-6f3fd91000 r--p 00000000 fe:0c 17196772                       /system/lib64/libmediadrmmetrics_full.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fd91000-6f3fda2000 r-xp 00010000 fe:0c 17196772                       /system/lib64/libmediadrmmetrics_full.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fda2000-6f3fda4000 r--p 00021000 fe:0c 17196772                       /system/lib64/libmediadrmmetrics_full.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fda4000-6f3fda5000 rw-p 00022000 fe:0c 17196772                       /system/lib64/libmediadrmmetrics_full.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fdc1000-6f3fdd6000 r--p 00000000 fe:0c 17259324                       /system/lib64/libmtp.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fdd6000-6f3fdfc000 r-xp 00015000 fe:0c 17259324                       /system/lib64/libmtp.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fdfc000-6f3fdff000 r--p 0003b000 fe:0c 17259324                       /system/lib64/libmtp.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fdff000-6f3fe00000 rw-p 0003d000 fe:0c 17259324                       /system/lib64/libmtp.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f3fe00000-6f42200000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f4224d000-6f42277000 r--p 00000000 fe:20 180                            /apex/com.android.conscrypt/lib64/libssl.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f42277000-6f42279000 ---p 00000000 00:00 0 
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f42279000-6f422d9000 r-xp 0002c000 fe:20 180                            /apex/com.android.conscrypt/lib64/libssl.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f422d9000-6f422dd000 r--p 0008c000 fe:20 180                            /apex/com.android.conscrypt/lib64/libssl.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f422dd000-6f422de000 rw-p 00090000 fe:20 180                            /apex/com.android.conscrypt/lib64/libssl.so
+04-01 18:22:51.899  4625  4627 F com.genhire: logging.cc:197] 6f42301000-6f42317000 r--p 00000000 fe:20 179                            /apex/com.android.conscrypt/lib64/libjavacrypto.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f42317000-6f42319000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f42319000-6f42338000 r-xp 00018000 fe:20 179                            /apex/com.android.conscrypt/lib64/libjavacrypto.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f42338000-6f42339000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f42339000-6f4233b000 r--p 00038000 fe:20 179                            /apex/com.andr
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] oid.conscrypt/lib64/libjavacrypto.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4233b000-6f4233d000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4233d000-6f4233f000 rw-p 0003c000 fe:20 179                            /apex/com.android.conscrypt/lib64/libjavacrypto.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4233f000-6f42340000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f42340000-6f43ce8000 r--s 00000000 07:48 14                             /apex/com.android.i18n/etc/icu/icudt70l.dat
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43ce8000-6f43ce9000 r--p 00000000 fe:19 33                             /apex/com.android.os.statsd/lib64/libstats_jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43ce9000-6f43cec000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43cec000-6f43ced000 r-xp 00004000 fe:19 33                             /apex/com.android.os.statsd/lib64/libstats_jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43ced000-6f43cf0000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43cf0000-6f43cf1000 r--p 00008000 fe:19 33                             /apex/com.android.os.statsd/lib64/libstats_jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43d31000-6f43d33000 r--p 00000000 07:e8 54                             /apex/com.android.tethering/lib64/libframework-connectivity-jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43d33000-6f43d35000 r-xp 00002000 07:e8 54                             /apex/com.android.tethering/lib64/libframework-connectivity-jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43d35000-6f43d36000 r--p 00004000 07:e8 54                             /apex/com.android.tethering/lib64/libframework-connectivity-jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43d36000-6f43d37000 rw-p 00004000 07:e8 54                             /apex/com.android.tethering/lib64/libframework-connectivity-jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43d72000-6f43df8000 r--p 00000000 00:00 0                              [anon:dalvik-classes16.dex extracted in memory from /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f43df8000-6f442f8000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f442f8000-6f44368000 r--p 00000000 fe:0c 13278065                       /system/framework/org.apache.http.legacy.jar
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f44368000-6f44369000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f44369000-6f4436a000 ---p 00000000 00:00 0                              [anon:stack_and_tls:
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 4638]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f4436a000-6f44465000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4638]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f44465000-6f44466000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f44466000-6f44508000 r--s 00000000 00:01 42885                          /dev/ashmem/fontMap (deleted)
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:216] 6f4450800
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 0-6f44509000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44509000-6f4450a000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4636]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4450a000-6f44605000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4636]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44605000-6f44607000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44607000-6f44608000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4635]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44608000-6f44703000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4635]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44703000-6f44704000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44704000-6f44802000 r--p 00000000 00:1c 4                              /dev/binderfs/binder
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44802000-6f44803000 r--p 00000000 07:e8 55                             /apex/com.android.tethering/lib64/libframework-connectivity-tiramisu-jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44803000-6f44804000 r-xp 00001000 07:e8 55                             /apex/com.android.tethering/lib64/libframework-connectivity-tiramisu-jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44804000-6f44805000 r--p 00002000 07:e8 55                             /apex/com.android.tethering/lib64/libframework-connectivity-tiramisu-jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4484c000-6f4484d000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4484d000-6f4484e000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4634]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4484e000-6f44955000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4634]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44955000-6f44956000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44956000-6f44970000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44970000-6f44972000 rw-p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f44972000-6f45956000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45956000-6f45957000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45957000-6f45958000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4633]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45958000-6f45a5f000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4633]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45a5f000-6f45a61000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45a61000-6f45a62000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4632]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45a62000-6f45b69000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4632]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45b69000-6f45b6b000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45b6b000-6f45b6c000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4631]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45b6c000-6f45c73000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4631]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45c73000-6f45c75000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45c75000-6f45c76000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4630]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45c76000-6f45d79000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4630]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45d79000-6f45d7a000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45d7a000-6f45e98000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45e98000-6f45e9a000 rw-p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f45e9a000-6f46d7a000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f46d7a000-6f46d7b000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f46d7b000-6f46d7c000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4629]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f46d7c000-6f46e77000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4629]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f46e77000-6f46e78000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f46e78000-6f476a8000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f476a8000-6f476aa000 rw-p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f476aa000-6f47e78000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f47e78000-6f47e79000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f47e79000-6f47e7a000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4628]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f47e7a000-6f47f75000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4628]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f47f75000-6f47f76000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f47f76000-6f48958000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f48958000-6f4895a000 rw-p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4895a000-6f48f76000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f48f76000-6f48f77000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f48f77000-6f48f78000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4627]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f48f78000-6f49073000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4627]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f49073000-6f49074000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f49074000-6f4915b000 rw-p 00000000 00:00 0                              [anon:dalvik-allocspace non moving space mark-bitmap 1]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4915b000-6f49242000 rw-p 00000000 00:00 0                              [anon:dalvik-allocspace non moving space live-bitmap 1]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f49242000-6f4d242000 rw-s 00000000 00:01 667962                         /memfd:jit-cache (deleted)
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d242000-6f4d25b000 r--p 00000000 fe:24 104                            /apex/com.android.art/lib64/libopenjdk.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d25b000-6f4d25e000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d25e000-6f4d27a000 r-xp 0001c000 fe:24 104                            /apex/com.android.art/lib64/libopenjdk.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d27a000-6f4d27b000 r--p 00038000 fe:24 104                            /apex/com.android.art/lib64/libopenjdk.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d27b000-6f4d27e000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d27e000-6f4d280000 rw-p 0003c000 fe:24 104                            /apex/com.android.art/lib64/libopenjdk.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d29a000-6f4d29e000 r--p 00000000 fe:24 105                            /apex/com.android.art/lib64/libopenjdkjvm.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d29e000-6f4d2a1000 r-xp 00004000 fe:24 105                            /apex/com.android.art/lib64/libopenjdkjvm.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2a1000-6f4d2a2000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2a2000-6f4d2a3000 r--p 00008000 fe:24 105                            /apex/com.android.art/lib64/libopenjdkjvm.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2a3000-6f4d2a6000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2a6000-6f4d2a7000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2d0000-6f4d2d8000 r--p 00000000 fe:24 95                             /apex/com.android.art/lib64/libexpat.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2d8000-6f4d2f5000 r-xp 00008000 fe:24 95                             /apex/com.android.art/lib64/libexpat.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2f5000-6f4d2f8000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2f8000-6f4d2fa000 r--p 00028000 fe:24 95                             /apex/com.android.art/lib64/libexpat.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2fa000-6f4d2fc000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d2fc000-6f4d2fd000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d312000-6f4d313000 r--p 00000000 fe:24 83                             /apex/com.android.art/lib64/libandroidio.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d313000-6f4d316000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d316000-6f4d317000 r-xp 00004000 fe:24 83                             /apex/com.android.art/lib64/libandroidio.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d317000-6f4d31a000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d31a000-6f4d31b000 r--p 00008000 fe:24 83                             /apex/com.android.art/lib64/libandroidio.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d31b000-6f4d31e000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d31e000-6f4d31f000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d358000-6f4d36b000 r--p 00000000 fe:24 96                             /apex/com.android.art/lib64/libjavacore.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d36b000-6f4d36c000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d36c000-6f4d392000 r-xp 00014000 fe:24 96                             /apex/com.android.art/lib64/libjavacore.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d392000-6f4d394000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d394000-6f4d395000 r--p 0003c000 fe:24 96                             /apex/com.android.art/lib64/libjavacore.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d395000-6f4d398000 ---p 00000000 00:00 0 
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d398000-6f4d39a000 rw-p 00040000 fe:24 96                             /apex/com.android.art/lib64/libjavacore.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4d3dc000-6f4ed84000 r--s 00000000 07:48 14                             /apex/com.android.i18n/etc/icu/icudt70l.dat
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ed84000-6f4ed8b000 r--p 00000000 07:48 30                             /apex/com.android.i18n/lib64/libicu_jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ed8b000-6f4ed96000 r-xp 00007000 07:48 30                             /apex/com.android.i18n/lib64/libicu_jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ed96000-6f4ed97000 r--p 00012000 07:48 30                             /apex/com.android.i18n/lib64/libicu_jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ed97000-6f4ed98000 rw-p 00012000 07:48 30                             /apex/com.android.i18n/lib64/libicu_jni.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ede6000-6f4ede8000 r--p 00000000 fe:0c 17765382                       /system/lib64/libwebviewchromium_plat_support.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ede8000-6f4edea000 r-xp 00002000 fe:0c 17765382                       /system/lib64/libwebviewchromium_plat_support.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4edea000-6f4edeb000 r--p 00004000 fe:0c 17765382                       /system/lib64/libwebviewchromium_plat_support.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4edeb000-6f4edec000 rw-p 00004000 fe:0c 17765382                       /system/lib64/libwebviewchromium_plat_support.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee24000-6f4ee25000 r--p 00000000 fe:0c 17711884                       /system/lib64/libstdc++.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee25000-6f4ee27000 r-xp 00001000 fe:0c 17711884                       /system/lib64/libstdc++.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee27000-6f4ee28000 r--p 00003000 fe:0c 17711884                       /system/lib64/libstdc++.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee50000-6f4ee53000 r--p 00000000 fe:0c 17711962                       /system/lib64/libutilscallstack.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee53000-6f4ee55000 r-xp 00003000 fe:0c 17711962                       /system/lib64/libutilscallstack.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee55000-6f4ee56000 r--p 00005000 fe:0c 17711962                       /system/lib64/libutilscallstack.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee8a000-6f4ee91000 r--p 00000000 fe:0c 16092982                       /system/lib64/libRS.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee91000-6f4ee9c000 r-xp 00007000 fe:0c 16092982                       /system/lib64/libRS.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee9c000-6f4ee9d000 r--p 00012000 fe:0c 16092982                       /system/lib64/libRS.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee9d000-6f4ee9e000 rw-p 00012000 fe:0c 16092982                       /system/lib64/libRS.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ee9e000-6f4ee9f000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4eee2000-6f4ef00000 r--p 00000000 fe:0c 15524594                       /system/lib64/android.hardware.renderscript@1.0.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ef00000-6f4ef29000 r-xp 0001e000 fe:0c 15524594                       /system/lib64/android.hardware.renderscript@1.0.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ef29000-6f4ef2d000 r--p 00047000 fe:0c 15524594                       /system/lib64/android.hardware.renderscript@1.0.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ef2d000-6f4ef2e000 rw-p 0004a000 fe:0c 15524594                       /system/lib64/android.hardware.renderscript@1.0.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ef56000-6f4ef58000 r--p 00000000 fe:0c 16092975                       /system/lib64/libOpenSLES.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ef58000-6f4ef59000 r-xp 00002000 fe:0c 16092975                       /system/lib64/libOpenSLES.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ef59000-6f4ef5a000 r--p 00003000 fe:0c 16092975                       /system/lib64/libOpenSLES.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ef9a000-6f4ef9c000 r--p 00000000 fe:0c 16092972                       /system/lib64/libOpenMAXAL.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ef9c000-6f4ef9d000 r-xp 00002000 fe:0c 16092972                       /system/lib64/libOpenMAXAL.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4ef9d000-6f4ef9e000 r--p 00003000 fe:0c 16092972                       /system/lib64/libOpenMAXAL.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4effa000-6f4effd000 r--p 00000000 fe:0c 17096727                       /system/lib64/libjnigraphics.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4effd000-6f4efff000 r-xp 00003000 fe:0c 17096727                       /system/lib64/libjnigraphics.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4efff000-6f4f000000 r--p 00005000 fe:0c 17096727                       /system/lib64/libjnigraphics.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4f026000-6f4f035000 r--p 00000000 fe:0c 16492573                       /system/lib64/libcamera2ndk.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4f035000-6f4f065000 r-xp 0000f000 fe:0c 16492573                       /system/lib64/libcamera2ndk.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4f065000-6f4f068000 r--p 0003f000 fe:0c 16492573                       /system/lib64/libcamera2ndk.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4f068000-6f4f069000 rw-p 00041000 fe:0c 16492573                       /system/lib64/libcamera2ndk.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4f08c000-6f4f090000 r--p 00000000 fe:0c 15717530                       /system/lib64/libamidi.so
+04-01 18:22:51.900  4625  4627 F com.genhire: logging.cc:197] 6f4f090000-6f4f094000 r-xp 00004000 fe:0c 15717530                       /system/lib64/libamidi.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f094000-6f4f095000 r--p 00008000 fe:0c 15717530                       /system/lib64/libamidi.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f095000-6f4f096000 rw-p 00008000 fe:0c 15717530                       /system/lib64/libamidi.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f0e8000-6f4f0ee000 r--p 00000000 fe:0c 15148115                       /system/lib64/aaudio-aidl-cpp.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f0ee000-6f4f0f7000 r-xp 00006000 fe:0c 15148115                       /system/lib64/aaudio-aidl-cpp.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f0f7000-6f4f0fa000 r--p 0000f000 fe:0c 15148115                       /system/lib64/aaudio-aidl-cpp.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f0fa000-6f4f0fb000 rw-p 00011000 fe:0c 15148115                       /system/lib64/aaudio-aidl-cpp.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f129000-6f4f12d000 r--p 00000000 fe:0c 16093031                       /system/lib64/libaaudio.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f12d000-6f4f131000 r-xp 00004000 fe:0c 16093031                       /system/lib64/libaaudio.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f131000-6f4f132000 r--p 00008000 fe:0c 16093031                       /system/lib64/libaaudio.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f154000-6f4f175000 r--p 00000000 fe:0c 16093034                       /system/lib64/libaaudio_internal.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f175000-6f4f1ac000 r-xp 00021000 fe:0c 16093034                       /system/lib64/libaaudio_internal.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f1ac000-6f4f1b3000 r--p 00058000 fe:0c 16093034                       /system/lib64/libaaudio_internal.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f1b3000-6f4f1b4000 rw-p 0005e000 fe:0c 16093034                       /system/lib64/libaaudio_internal.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f1e3000-6f4f1ed000 r--p 00000000 fe:0c 15524514                       /system/lib64/android.hardware.power@1.0.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f1ed000-6f4f1f5000 r-xp 0000a000 fe:0c 15524514                       /system/lib64/android.hardware.power@1.0.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f1f5000-6f4f1f7000 r--p 00012000 fe:0c 15524514                       /system/lib64/android.hardware.power@1.0.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f1f7000-6f4f1f8000 rw-p 00013000 fe:0c 15524514                       /system/lib64/android.hardware.power@1.0.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f21a000-6f4f220000 r--p 00000000 fe:0c 15524494                       /system/lib64/android.hardware.power-V3-cpp.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f220000-6f4f225000 r-xp 00006000 fe:0c 15524494                       /system/lib64/android.hardware.power-V3-cpp.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f225000-6f4f227000 r--p 0000b000 fe:0c 15524494                       /system/lib64/android.hardware.power-V3-cpp.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f227000-6f4f229000 rw-p 0000c000 fe:0c 15524494                       /system/lib64/android.hardware.power-V3-cpp.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f26d000-6f4f272000 r--p 00000000 fe:0c 16093050                       /system/lib64/libactivitymanager_aidl.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f272000-6f4f275000 r-xp 00005000 fe:0c 16093050                       /system/lib64/libactivitymanager_aidl.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f275000-6f4f277000 r--p 00008000 fe:0c 16093050                       /system/lib64/libactivitymanager_aidl.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f277000-6f4f278000 rw-p 00009000 fe:0c 16093050                       /system/lib64/libactivitymanager_aidl.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f284000-6f4f296000 r--p 00000000 fe:0c 17478186                       /system/lib64/libpowermanager.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f296000-6f4f2ad000 r-xp 00012000 fe:0c 17478186                       /system/lib64/libpowermanager.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f2ad000-6f4f2b4000 r--p 00029000 fe:0c 17478186                       /system/lib64/libpowermanager.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f2b4000-6f4f2b5000 rw-p 0002f000 fe:0c 17478186                       /system/lib64/libpowermanager.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f2b5000-6f4f2b6000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f2c4000-6f4f310000 r--p 00000000 fe:0c 17765408                       /system/lib64/libxml2.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f310000-6f4f3f9000 r-xp 0004c000 fe:0c 17765408                       /system/lib64/libxml2.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f3f9000-6f4f3fc000 r--p 00135000 fe:0c 17765408                       /system/lib64/libxml2.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f3fc000-6f4f3fe000 rw-p 00137000 fe:0c 17765408                       /system/lib64/libxml2.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f3fe000-6f4f3ff000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f41a000-6f4f425000 r--p 00000000 fe:0c 15524518                       /system/lib64/android.hardware.power@1.1.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f425000-6f4f42d000 r-xp 0000b000 fe:0c 15524518                       /system/lib64/android.hardware.power@1.1.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f42d000-6f4f42f000 r--p 00013000 fe:0c 15524518                       /system/lib64/android.hardware.power@1.1.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f42f000-6f4f430000 rw-p 00014000 fe:0c 15524518                       /system/lib64/android.hardware.power@1.1.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f444000-6f4f45a000 r--p 00000000 fe:0c 15717533                       /system/lib64/libandroid.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f45a000-6f4f46d000 r-xp 00016000 fe:0c 15717533                       /system/lib64/libandroid.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f46d000-6f4f470000 r--p 00029000 fe:0c 15717533                       /system/lib64/libandroid.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f470000-6f4f471000 rw-p 0002b000 fe:0c 15717533                       /system/lib64/libandroid.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f4a6000-6f4f4c4000 r--p 00000000 fe:24 107                            /apex/com.android.art/lib64/libperfetto_hprof.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f4c4000-6f4f4c6000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f4c6000-6f4f51f000 r-xp 00020000 fe:24 107                            /apex/com.android.art/lib64/libperfetto_hprof.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f51f000-6f4f522000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f522000-6f4f526000 r--p 0007c000 fe:24 107                            /apex/com.android.art/lib64/libperfetto_hprof.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f526000-6f4f527000 rw-p 00080000 fe:24 107                            /apex/com.android.art/lib64/libperfetto_hprof.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f527000-6f4f528000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f552000-6f4f55a000 r--p 00000000 fe:24 82                             /apex/com.android.art/lib64/libadbconnection.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f55a000-6f4f569000 r-xp 00008000 fe:24 82                             /apex/com.android.art/lib64/libadbconnection.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f569000-6f4f56a000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f56a000-6f4f56b000 r--p 00018000 fe:24 82                             /apex/com.android.art/lib64/libadbconnection.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f56b000-6f4f56e000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f56e000-6f4f56f000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f580000-6f4f58c000 r--p 00000000 07:40 30                             /apex/com.android.adbd/lib64/libadbconnection_client.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f58c000-6f4f5b1000 r-xp 0000c000 07:40 30                             /apex/com.android.adbd/lib64/libadbconnection_client.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f5b1000-6f4f5b4000 r--p 00031000 07:40 30                             /apex/com.android.adbd/lib64/libadbconnection_client.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f5b4000-6f4f5b5000 rw-p 00033000 07:40 30                             /apex/com.android.adbd/lib64/libadbconnection_client.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f5b5000-6f4f5b6000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4f5ff000-6f4fe00000 rw-p 00000000 00:00 0                              [anon:dalvik-Concurrent mark-compact compaction buffers]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f4fe00000-6f5be00000 rw-p 00000000 00:00 0                              [anon:dalvik-main space]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f60ce3000-6f628e3000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f628e3000-6f63a77000 r--p 01e48000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f63a77000-6f646c5000 r--p 00000000 fe:24 85                             /apex/com.android.art/lib64/libart.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f646c5000-6f64813000 r--p 00000000 07:50 38                             /apex/com.android.runtime/lib64/bionic/libc.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f64813000-6f64b9c000 r--p 012e4000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaq
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] c5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f64b9c000-6f6544e000 r--p 008bc000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6544e000-6f654fd000 r--p 00000000 fe:0c 16492556                       /system/lib64/libc++.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f654fd000-6f65d7a000 r--p 00000000 fe:0c 17096576                       /system/lib64/libhwui.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f65d7a000-6f65fb4000 r--p 00000000 fe:0c 15717542                       /system/lib64/libandroid_runtime.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f65fb4000-6f66070000 r--p 00000000 fe:0c 16399650                       /system/lib64/libbinder.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f66070000-6f67204000 r--p 01e48000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f67204000-6f677c1000 r--p 00000000 fe:24 49                             /apex/com.android.art/javalib/core-oj.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f677c1000-6f6785d000 r--p 00000000 fe:24 48                             /apex/com.android.art/javalib/core-libart.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6785d000-6f6795a000 r--p 00000000 fe:24 47                             /apex/com.android.art/javalib/bouncycastle.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6795a000-6f67a5a000 r--p 00000000 fe:24 46                             /apex/com.android.art/javalib/apache-xml.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f67a5a000-6f682b1000 r--p 00006000 fe:0c 12742656                       /system/framework/framework.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f682b1000-6f68ab3000 r--p 0085c000 fe:0c 12742656                       /system/framework/framework.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f68ab3000-6f69286000 r--p 0105d000 fe:0c 12742656                       /system/framework/framework.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f69286000-6f69b1c000 r--p 0182f000 fe:0c 12742656                       /system/framework/framework.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f69b1c000-6f69e90000 r--p 00000000 fe:0c 13746432                       /system/framework/telephony-common.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f69e90000-6f69f4c000 r--p 00000000 fe:0c 11570385                       /system/framework/voip-common.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f69f4c000-6f69fd4000 r--p 00000000 fe:0c 11569650                       /system/framework/ims-common.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f69fd4000-6f6a239000 r--p 00004000 07:48 16                             /apex/com.android.i18n/javalib/core-icu4j.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6a239000-6f6a2c5000 r--p 00000000 fe:25 26                             /apex/com.android.adservices/javalib/framework-adservices.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6a2c5000-6f6a3a0000 r--p 00000000 07:38 33                             /apex/com.android.btservices/javalib/framework-bluetooth.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6a3a0000-6f6a449000 r--p 00000000 07:98 19                             /apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6a449000-6f6a504000 r--p 00000000 fe:18 33                             /apex/com.android.media/javalib/updatable-media.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6a504000-6f6a5fd000 r--p 00000000 07:28 29                             /apex/com.android.wifi/javalib/framework-wifi.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6a5fd000-6f6bdfd000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6bdfd000-6f6ca4b000 r--p 00000000 fe:24 85                             /apex/com.android.art/lib64/libart.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6ca4b000-6f6de4b000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6de4b000-6f6e502000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f6e502000-6f6e504000 rw-p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f6e504000-6f6ee4b000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f6ee4b000-6f6fe4b000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f6fe4b000-6f7006a000 rw-p 00000000 00:00 0                              [anon:dalvik-Concurrent mark-compact chunk-inf
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] o vector]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f7007f000-6f70111000 r--p 00000000 fe:20 170                            /apex/com.android.conscrypt/javalib/conscrypt.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f70111000-6f703db000 r--p 00af9000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.webv
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] iew-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f703db000-6f706db000 rw-p 00000000 00:00 0                              [anon:dalvik-Concurrent Mark Compact live words bitmap]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f7074b000-6f707c9000 r--p 00000000 07:e8 42                             /apex/com.android.tethering/javalib/framework-connecti
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] vity.jar
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f707c9000-6f70851000 r--p 00000000 fe:24 107                            /apex/com.android.art/lib64/libperfetto_hprof.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f70851000-6f7099f000 r--p 00000000 07:50 38                             /apex/com.android.runtime/lib64/bionic/libc.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f7099f000-6f7
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 0a54000 r--p 00000000 fe:24 110                            /apex/com.android.art/lib64/libunwindstack.so
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70a54000-6f70aa7000 r-xp 03388000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70aa7000-6f70aaa000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70aaa000-6f70aad000 r--p 033da000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70aad000-6f70ab0000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70ab0000-6f70ab1000 rw-p 033dc000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70ad1000-6f70ad2000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70ad2000-6f70ad3000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4720]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70ad3000-6f70bda000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4720]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70bda000-6f70bdb000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f70bdb000-6f713dc000 rw-p 00000000 00:00 0                              [anon:dalvik-live stack]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f713dc000-6f71bdd000 rw-p 00000000 00:00 0                              [anon:dalvik-allocation stack]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f71bdd000-6f71fde000 rw-p 00000000 00:00 0                              [anon:dalvik-card table]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f71fde000-6f7203e000 rw-p 00000000 00:00 0                              [anon:dalvik-large object free list space allocation info map]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f7205f000-6f720de000 r--s 0f3d3000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] .android.webview-IgGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f720de000-6f723de000 rw-p 00000000 00:00 0                              [anon:dalvik-bump-pointer space live bitmap]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f72443000-6f724c2000 r--s 0f3d3000 fe:2e 476200                         /data/app/~~Y9vhgxIusRtUmAqIRWR9Rg==/com.google.android.webview-I
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] gGzGVrTixq8HwU2cvw5UQ==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f724c2000-6f72564000 r-xp 0166c000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f72564000-6f72567000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:216] 6f72567000-6f7256b000 r--p 0170d000 fe:2e 477807       
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197]                   /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f7256b000-6f7256e000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f7256e000-6f72570000 rw-p 01710000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f72583000-6f72584000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f72584000-6f72585000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4644]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f72585000-6f72680000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4644]
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f72680000-6f72681000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f72681000-6f726ab000 r-xp 012ac000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f726ab000-6f726ae000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f726ae000-6f726b0000 r--p 012d5000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f726b0000-6f726b3000 ---p 00000000 00:00 0 
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f726b3000-6f726b4000 rw-p 012d6000 fe:2e 477807                         /data/app/~~6trMcQhwEPJO3FURNFGz4A==/com.genhire-lHE9sV8C3S7vaqc5uSzhpw==/base.apk
+04-01 18:22:51.901  4625  4627 F com.genhire: logging.cc:197] 6f726b4000-6f726b5000 rw-p 00000000 00:00 0                              [anon:.bss]
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f726ca000-6f726cb000 ---p 00000000 00:00 0 
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f726cb000-6f726cc000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4643]
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f726cc000-6f727d3000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4643]
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f727d3000-6f727d5000 ---p 00000000 00:00 0 
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f727d5000-6f727d6000 ---p 00000000 00:00 0                              [anon:stack_and_tls:4642]
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f727d6000-6f728dd000 rw-p 00000000 00:00 0                              [anon:stack_and_tls:4642]
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f728dd000-6f728de000 ---p 00000000 00:00 0 
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f728de000-6f729de000 rw-p 00000000 00:00 0                              [anon:dalvik-allocspace zygote / non moving space mark-bitmap 0]
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f729de000-6f72ade000 rw-p 00000000 00:00 0                              [anon:dalvik-allocspace zygote / non moving space live-bitmap 0]
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f72ade000-6f72bd7000 r--p 00000000 07:28 29                             /apex/com.android.wifi/javalib/framework-wifi.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f72bd7000-6f72c92000 r--p 00000000 fe:18 33                             /apex/com.android.media/javalib/updatable-media.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f72c92000-6f72d3b000 r--p 00000000 07:98 19                             /apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f72d3b000-6f72dcd000 r--p 00000000 fe:20 170                            /apex/com.android.conscrypt/javalib/conscrypt.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f72dcd000-6f72ea8000 r--p 00000000 07:38 33                             /apex/com.android.btservices/javalib/framework-bluetooth.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f72ea8000-6f7310d000 r--p 00004000 07:48 16                             /apex/com.android.i18n/javalib/core-icu4j.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f7310d000-6f73481000 r--p 00000000 fe:0c 13746432                       /system/framework/telephony-common.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f73481000-6f73d17000 r--p 0182f000 fe:0c 12742656                       /system/framework/framework.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f73d17000-6f744ea000 r--p 0105d000 fe:0c 12742656                       /system/framework/framework.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f744ea000-6f74cec000 r--p 0085c000 fe:0c 12742656                       /system/framework/framework.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f74cec000-6f75543000 r--p 00006000 fe:0c 12742656                       /system/framework/framework.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f75543000-6f75643000 r--p 00000000 fe:24 46                             /apex/com.android.art/javalib/apache-xml.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f75643000-6f75c00000 r--p 00000000 fe:24 49                             /apex/com.android.art/javalib/core-oj.jar
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f75c00000-6f75d9b000 r--p 00000000 fe:24 85                             /apex/com.android.art/lib64/libart.so
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f75d9b000-6f75e00000 ---p 00000000 00:00 0 
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f75e00000-6f765e3000 r-xp 00200000 fe:24 85                             /apex/com.android.art/lib64/libart.so
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f765e3000-6f76600000 ---p 00000000 00:00 0 
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f76600000-6f76631000 r--p 00a00000 fe:24 85                             /apex/com.android.art/lib64/libart.so
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f76631000-6f76800000 ---p 00000000 00:00 0 
+04-01 18:22:51.902  4625  4627 F com.genhire: logging.cc:197] 6f76800000-6f76804000 rw-p 00c00000 fe:24 85                             /apex/com.android.art/lib64/

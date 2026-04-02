@@ -9,7 +9,7 @@ import WelcomeScreen from '../Common/WelcomeScreen';
 
 const Stack = createNativeStackNavigator();
 
-const AppNavigator = () => {
+const Navigation = () => {
 
   return (
     <SafeAreaProvider >
@@ -25,4 +25,4 @@ const AppNavigator = () => {
   );
 };
 
-export default AppNavigator;
+export default Navigation;

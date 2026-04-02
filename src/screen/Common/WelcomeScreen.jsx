@@ -1,86 +1,120 @@
-
-import React, { useEffect, useState } from 'react';
-
+import React from "react";
 import {
   View,
-  ImageBackground,
+  Text,
   StyleSheet,
   Image,
+  TouchableOpacity,
+  Dimensions,
+  ImageBackground,
+} from "react-native";
 
+const { height } = Dimensions.get("window");
 
-
-
-} from 'react-native';
-import { useNavigation } from '@react-navigation/native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-
-
-const WelcomeScreen = () => {
-  const navigation = useNavigation()
-
-
-  useEffect(() => {
-    const checkLoginStatus = async () => {
-      try {
-        const storedUserID = await AsyncStorage.getItem('UserID');
-
-        if (!storedUserID || storedUserID === 'null' || storedUserID === '') {
-          navigation.replace('LoginScreen');
-        } else {
-
-          const userTypeId = await AsyncStorage.getItem('UserTypeId'); // ✅ fetch UserTypeId
-          if (userTypeId === "IFBMM1000011") {
-            navigation.replace('LoginScreen');
-          } else {
-            navigation.replace('LoginScreen');
-          }
-          
-        }
-      } catch (error) {
-        console.error('Error reading UserID:', error);
-        navigation.replace('LoginScreen'); // fallback
-      }
-    };
-
-    setTimeout(checkLoginStatus, 2000); // 2-second splash
-
-  }, []);
-
-
-
-
+const HomeScreen = () => {
   return (
-    <View style={{ flex: 1 }}>
+    <View style={styles.container}>
+
+      {/* 🔹 Top Full Design Image */}
       <ImageBackground
-        source={require('../../asset/splashimg.png')} // your top background image
+        source={require("../../asset/banner-bg.png")} // 👈 full UI image
         style={styles.topImage}
         resizeMode="cover"
       >
-        <View style={{ alignItems: 'center', marginTop: 240 }}>
-          <Image source={require('../../asset/loader.gif')} style={styles.loaderImage} />
-        </View>
+        <View style={styles.bottomCard}>
+          <Text style={styles.title}>
+            Explore The Trusted Recruitment Platform
+          </Text>
 
+          <Text style={styles.subtitle}>
+            Get personalized recommendations, apply quickly,
+            and receive real time updates.
+          </Text>
+
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Get Started</Text>
+            <Text style={styles.arrow}>➜</Text>
+          </TouchableOpacity>
+
+          <Text style={styles.footerText}>
+            Precision hiring, powered by technology
+          </Text>
+        </View>
       </ImageBackground>
 
+      {/* 🔹 Bottom Card */}
 
     </View>
   );
 };
 
+export default HomeScreen;
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+
+  /* Top Image */
   topImage: {
-    height: '100%',
-    width: '100%',
+    width: "100%",
+    height: "100%", // adjust based on design
+  },
+
+  /* Bottom Card */
+  bottomCard: {
+
+    position: "absolute",   // 👈 FIX
+    bottom: 0,              // 👈 stick to bottom
+    width: "100%",
+    
+    backgroundColor: "#ffffff",
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
+    padding: 20,
+    alignItems: "center",
+    height: height * 0.45, // adjust based on design
+    elevation: 10,
 
   },
 
-  loaderImage: {
-    height: 200,
-    width: 200,
-
+  title: {
+    fontSize: 18,
+    fontWeight: "bold",
+    textAlign: "center",
+    marginBottom: 10,
   },
 
+  subtitle: {
+    fontSize: 13,
+    textAlign: "center",
+    color: "#666",
+    marginBottom: 20,
+  },
 
+  button: {
+    flexDirection: "row",
+    backgroundColor: "#000",
+    paddingVertical: 12,
+    paddingHorizontal: 25,
+    borderRadius: 30,
+    alignItems: "center",
+    marginBottom: 10,
+  },
+
+  buttonText: {
+    color: "#fff",
+    fontSize: 16,
+    marginRight: 10,
+  },
+
+  arrow: {
+    color: "#fff",
+    fontSize: 18,
+  },
+
+  footerText: {
+    fontSize: 11,
+    color: "#444",
+  },
 });
-
-export default WelcomeScreen;

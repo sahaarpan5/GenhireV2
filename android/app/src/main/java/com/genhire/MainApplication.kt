@@ -1,4 +1,4 @@
-package com.ifb_v2
+package com.genhire
 
 import android.app.Application
 import com.facebook.react.PackageList

@@ -4,19 +4,21 @@
  *
  * @format
  */
-
-import { NewAppScreen } from '@react-native/new-app-screen';
+import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import AppNavigator from './src/screen/Navigator/AppNavigator';
+import Navigation from './src/screen/Navigator/Navigation';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-   <NavigationContainer>
-      <AppNavigator />
+    <NavigationContainer>
+      
+        <Navigation />
     </NavigationContainer>
+    
+    
   );
 }
 
