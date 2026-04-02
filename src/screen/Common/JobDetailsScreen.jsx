@@ -1,3 +1,4 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import {
     View,
@@ -12,6 +13,7 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons';
 
 const JobDetailsScreen = () => {
+    const navigation=useNavigation();
     return (
         <SafeAreaView style={styles.container}>
             <StatusBar barStyle="light-content" />
@@ -64,7 +66,7 @@ const JobDetailsScreen = () => {
 
                     {/* Actions */}
                     <View style={styles.actionRow}>
-                        <ActionCard title="Selection" image={require('../../asset/selection.png')} />
+                        <ActionCard title="Selection" image={require('../../asset/selection.png')} onPress={() => navigation.navigate('ManualSelectionForm')} />
                         <ActionCard title="Joining Status" image={require('../../asset/joining-status.png')} />
                         <ActionCard title="Joining Document" image={require('../../asset/joining-document.png')} />
                     </View>
@@ -77,9 +79,9 @@ const JobDetailsScreen = () => {
     );
 };
 
-const ActionCard = ({ title, image }) => {
+const ActionCard = ({ title, image ,onPress}) => {
     return (
-        <TouchableOpacity style={styles.actionCard}>
+        <TouchableOpacity style={styles.actionCard}onPress={onPress} >
             <Image source={image} style={styles.actionImage} resizeMode="contain" />
             <Text style={styles.actionText}>{title}</Text>
         </TouchableOpacity>

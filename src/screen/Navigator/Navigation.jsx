@@ -7,6 +7,7 @@ import WelcomeScreen from '../Common/WelcomeScreen';
 import LoginScreen from '../Common/LoginScreen';
 import DashboardScreen from '../Common/DashboardScreen';
 import JobDetailsScreen from '../Common/JobDetailsScreen';
+import ManualSelectionForm from '../Common/ManualSelectionForm';
 
 
 
@@ -22,6 +23,7 @@ const Navigation = () => {
        <Stack.Screen name="LoginScreen" component={LoginScreen} />
        <Stack.Screen name="DashboardScreen" component={DashboardScreen} />
        <Stack.Screen name="JobDetailsScreen" component={JobDetailsScreen} />
+       <Stack.Screen name="ManualSelectionForm" component={ManualSelectionForm} />
       </Stack.Navigator>
 
     </SafeAreaProvider>
