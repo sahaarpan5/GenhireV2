@@ -1,3 +1,4 @@
+import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import {
   View,
@@ -12,6 +13,7 @@ import {
 const { height } = Dimensions.get("window");
 
 const HomeScreen = () => {
+  const navigation=useNavigation();
   return (
     <View style={styles.container}>
 
@@ -26,14 +28,24 @@ const HomeScreen = () => {
             Explore The Trusted Recruitment Platform
           </Text>
 
-          <Text style={styles.subtitle}>
-            Get personalized recommendations, apply quickly,
-            and receive real time updates.
-          </Text>
 
-          <TouchableOpacity style={styles.button}>
-            <Text style={styles.buttonText}>Get Started</Text>
-            <Text style={styles.arrow}>➜</Text>
+
+          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("LoginScreen")}>
+            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+              <Text style={styles.buttonText}>Get Started</Text>
+              <Image
+                source={require("../../asset/fast-forward.png")} // 👈 full UI image
+                style={styles.fastforward}
+              />
+            </View>
+            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+              
+              <Image
+                source={require("../../asset/send.png")} // 👈 full UI image
+                style={styles.forward}
+              />
+            </View>
+
           </TouchableOpacity>
 
           <Text style={styles.footerText}>
@@ -67,10 +79,10 @@ const styles = StyleSheet.create({
     position: "absolute",   // 👈 FIX
     bottom: 0,              // 👈 stick to bottom
     width: "100%",
-    
+
     backgroundColor: "#ffffff",
-    borderTopLeftRadius: 25,
-    borderTopRightRadius: 25,
+    borderTopLeftRadius: 35,
+    borderTopRightRadius: 35,
     padding: 20,
     alignItems: "center",
     height: height * 0.45, // adjust based on design
@@ -79,16 +91,17 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontSize: 18,
+    fontSize: 30,
     fontWeight: "bold",
     textAlign: "center",
     marginBottom: 10,
+    color: '#333',
   },
 
   subtitle: {
-    fontSize: 13,
+    fontSize: 16,
     textAlign: "center",
-    color: "#666",
+    color: "#929292",
     marginBottom: 20,
   },
 
@@ -99,12 +112,15 @@ const styles = StyleSheet.create({
     paddingHorizontal: 25,
     borderRadius: 30,
     alignItems: "center",
-    marginBottom: 10,
+    marginTop: 30,
+    width: '80%',
+    justifyContent: 'space-between'
+
   },
 
   buttonText: {
     color: "#fff",
-    fontSize: 16,
+    fontSize: 20,
     marginRight: 10,
   },
 
@@ -114,7 +130,18 @@ const styles = StyleSheet.create({
   },
 
   footerText: {
-    fontSize: 11,
-    color: "#444",
+    fontSize: 14,
+    color: "#0a0a0a",
+    marginTop:20
+  },
+  fastforward: {
+    width: 22,
+    height: 22,
+    marginLeft:10
+  },
+  forward: {
+    width: 40,
+    height: 40,
+    
   },
 });
