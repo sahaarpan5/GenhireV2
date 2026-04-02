@@ -6,6 +6,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import WelcomeScreen from '../Common/WelcomeScreen';
 import LoginScreen from '../Common/LoginScreen';
 import DashboardScreen from '../Common/DashboardScreen';
+import JobDetailsScreen from '../Common/JobDetailsScreen';
 
 
 
@@ -20,6 +21,7 @@ const Navigation = () => {
         <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
        <Stack.Screen name="LoginScreen" component={LoginScreen} />
        <Stack.Screen name="DashboardScreen" component={DashboardScreen} />
+       <Stack.Screen name="JobDetailsScreen" component={JobDetailsScreen} />
       </Stack.Navigator>
 
     </SafeAreaProvider>

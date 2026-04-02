@@ -1,3 +1,4 @@
+import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import {
     View,
@@ -51,8 +52,9 @@ const jobs = [
 ];
 
 const DashboardScreen = () => {
+    const navigation = useNavigation();
     const renderJob = ({ item }) => (
-        <TouchableOpacity style={styles.jobCard}>
+        <TouchableOpacity style={styles.jobCard} onPress={() => navigation.navigate("JobDetailsScreen")}>
             <View style={styles.jobHeader}>
                 <Text style={styles.jobTitle}>{item.title}</Text>
                 <Text style={styles.menu}>⋯</Text>
