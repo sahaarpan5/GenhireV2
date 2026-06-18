@@ -1,206 +1,378 @@
-import { useNavigation } from "@react-navigation/native";
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   View,
   Text,
-  TextInput,
   StyleSheet,
-  ImageBackground,
   TouchableOpacity,
-  ScrollView,
-  KeyboardAvoidingView,
+  SafeAreaView,
+  StatusBar,
+  Dimensions,
   Platform,
-} from "react-native";
+  TextInput,
+  Alert,
+  Keyboard,
+  TouchableWithoutFeedback,
+  ImageBackground,
+  ScrollView,
+  Image,
+} from 'react-native';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+const { width, height } = Dimensions.get('window');
+import { useNavigation } from '@react-navigation/native';
+
+// Responsive sizing functions
+const scale = (size) => {
+  const baseWidth = 375;
+  return Math.round((width / baseWidth) * size);
+};
+
+const verticalScale = (size) => {
+  const baseHeight = 812;
+  return Math.round((height / baseHeight) * size);
+};
+
+const moderateScale = (size, factor = 0.5) => {
+  return size + (scale(size) - size) * factor;
+};
 
 const LoginScreen = () => {
-  const [userId, setUserId] = useState("");
-  const [password, setPassword] = useState("");
-  const [remember, setRemember] = useState(false);
-  const navigation=useNavigation();
+  const navigation = useNavigation();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
+  const [rememberMe, setRememberMe] = useState(false);
+
+  const handleLogin = () => {
+    if (!email || !password) {
+      Alert.alert('Error', 'Please fill in all fields');
+      return;
+    }
+    Alert.alert(
+      'Success! 🎉',
+      'Login successful! Welcome to GenHire',
+      [
+        {
+          text: 'OK',
+          onPress: () => navigation.navigate('DashboardScreen'),
+        },
+      ]
+    );
+  };
+
+  const handleForgotPassword = () => {
+    Alert.alert('Reset Password', 'Password reset link will be sent to your email');
+  };
 
   return (
-    <ImageBackground
-      source={require("../../asset/login-banner.png")} // <-- your background image
-      style={styles.background}
-      resizeMode="cover"
-    >
-      <KeyboardAvoidingView
-        style={{ flex: 1 }}
-        behavior={Platform.OS === "ios" ? "padding" : undefined}
-      >
+    <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+      <SafeAreaView style={styles.container}>
+        <StatusBar barStyle="light-content" backgroundColor="#FF6B6B" />
+
         <ScrollView
-          contentContainerStyle={styles.container}
-          keyboardShouldPersistTaps="always"
+          contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
         >
-          <View style={styles.card}>
-            <Text style={styles.title}>Login</Text>
+          {/* Header Image */}
+          <View style={styles.headerContainer}>
+            <ImageBackground
+              source={{ uri: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800' }}
+              style={styles.headerImage}
+              imageStyle={styles.headerImageStyle}
+            >
+              <View style={styles.headerOverlay}>
+                <View style={styles.logoContainer}>
+                  <View style={styles.logoIcon}>
+                    <Ionicons name="briefcase" size={moderateScale(32)} color="#FFF" />
+                  </View>
+                  <Text style={styles.logoText}>GenHire</Text>
+                </View>
+                <View style={styles.headerContent}>
+                  <Text style={styles.welcomeText}>Welcome Back!</Text>
+                  <Text style={styles.subWelcomeText}>Sign in to continue your recruitment journey</Text>
+                </View>
+              </View>
+            </ImageBackground>
+          </View>
 
-            {/* User ID */}
-            <View style={styles.inputContainer}>
-              <Text style={styles.icon}>👤</Text>
-              <TextInput
-                placeholder="Enter the user ID"
-                value={userId}
-                onChangeText={setUserId}
-                style={styles.input}
-                placeholderTextColor="#777"
-              />
-            </View>
+          {/* Login Form */}
+          <View style={styles.formContainer}>
+            <View style={styles.formCard}>
+              {/* Email Input */}
+              <View style={styles.formGroup}>
+                <Text style={styles.formLabel}>Email Address</Text>
+                <View style={styles.formInputContainer}>
+                  <Image
+                    source={require('../../asset/mail.png')}
+                    style={styles.arrowImage}
+                  />
 
-            {/* Password */}
-            <View style={styles.inputContainer}>
-              <Text style={styles.icon}>🔒</Text>
-              <TextInput
-                placeholder="Enter the password"
-                value={password}
-                onChangeText={setPassword}
-                secureTextEntry
-                style={styles.input}
-                placeholderTextColor="#777"
-              />
-            </View>
+                  <TextInput
+                    style={styles.formInput}
+                    placeholder="Enter your email"
+                    placeholderTextColor="#999"
+                    value={email}
+                    onChangeText={setEmail}
+                    keyboardType="email-address"
+                    autoCapitalize="none"
+                  />
+                </View>
+              </View>
 
-            {/* Login Button */}
-            <TouchableOpacity style={styles.loginBtn} onPress={()=>navigation.replace('DashboardScreen')}>
-              <Text style={styles.loginText}>Login</Text>
-            </TouchableOpacity>
+              {/* Password Input */}
+              <View style={styles.formGroup}>
+                <Text style={styles.formLabel}>Password</Text>
+                <View style={styles.formInputContainer}>
+                  <Image
+                    source={require('../../asset/password.png')}
+                    style={styles.arrowImage}
+                  />
+                  <TextInput
+                    style={styles.formInput}
+                    placeholder="Enter your password"
+                    placeholderTextColor="#999"
+                    value={password}
+                    onChangeText={setPassword}
+                    secureTextEntry={!showPassword}
+                  />
+                  <TouchableOpacity
+                    onPress={() => setShowPassword(!showPassword)}
+                    style={styles.eyeIcon}
+                  >
+                    <Image
+                      source={
+                        showPassword
+                          ? require('../../asset/eye-open.png')
+                          : require('../../asset/eye-close.png')
+                      }
+                      style={styles.eyeicon}
+                    />
+                  </TouchableOpacity>
+                </View>
+              </View>
 
-            {/* Remember + Forgot */}
-            <View style={styles.row}>
+              {/* Remember Me & Forgot Password */}
+              <View style={styles.optionsRow}>
+                <TouchableOpacity
+                  style={styles.rememberMe}
+                  onPress={() => setRememberMe(!rememberMe)}
+                >
+                  <View style={[styles.checkbox, rememberMe && styles.checkboxActive]}>
+                    {rememberMe && <Ionicons name="checkmark" size={moderateScale(12)} color="#FFF" />}
+                  </View>
+                  <Text style={styles.rememberMeText}>Remember Me</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={handleForgotPassword}>
+                  <Text style={styles.forgotPassword}>Forgot Password?</Text>
+                </TouchableOpacity>
+              </View>
+
+              {/* Login Button */}
               <TouchableOpacity
-                style={styles.remember}
-                onPress={() => setRemember(!remember)}
+                style={styles.loginButton}
+                onPress={handleLogin}
+                activeOpacity={0.8}
               >
-                <View
-                  style={[
-                    styles.checkbox,
-                    remember && styles.checkboxChecked,
-                  ]}
+                <Text style={styles.loginButtonText}>Sign In</Text>
+                <Image
+                  source={require('../../asset/arrow.png')}
+                  style={styles.signuparrowImage}
                 />
-                <Text style={styles.rememberText}>Remember me</Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity>
-                <Text style={styles.forgot}>Forgot Password?</Text>
+                {/* <Ionicons name="arrow-forward" size={moderateScale(22)} color="#FFF" /> */}
               </TouchableOpacity>
             </View>
-
-      
           </View>
         </ScrollView>
-      </KeyboardAvoidingView>
-    </ImageBackground>
+      </SafeAreaView>
+    </TouchableWithoutFeedback>
   );
 };
 
-export default LoginScreen;
 const styles = StyleSheet.create({
-  background: {
-    flex: 1,
-    justifyContent: "flex-end",
-  },
   container: {
-    flexGrow: 1,
-    justifyContent: "flex-end",
-  },
-  card: {
-    backgroundColor: "#fff",
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
-    padding: 20,
-    height:'65%'
-  },
-  title: {
-    fontSize: 26,
-    fontWeight: "bold",
-    textAlign: "center",
-    marginBottom: 30,
-    color:'#333',
-  },
-  inputContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    borderWidth: 1,
-    borderColor: "#0e0d0d",
-    borderRadius: 8,
-    marginBottom: 15,
-    paddingHorizontal: 10,
-    width: "90%",
-    alignSelf:'center'
-  },
-  icon: {
-    fontSize: 18,
-    marginRight: 8,
-  },
-  input: {
     flex: 1,
-    height: 45,
+    backgroundColor: '#F8F9FA',
   },
-  loginBtn: {
-    alignSelf:'center',
-    width: "90%",
-    marginTop: 10,
-    paddingVertical: 14,
-    borderRadius: 6,
-    alignItems: "center",
-    backgroundColor: "#6a11cb", // fallback below
+  scrollContent: {
+    flexGrow: 1,
   },
-  loginText: {
-    color: "#fff",
-    fontWeight: "bold",
-    fontSize: 16,
+  headerContainer: {
+    height: verticalScale(280),
+    width: '100%',
   },
-  row: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    marginTop: 15,
-    alignItems: "center",
-    width:'90%',
-    alignSelf:'center'
+  headerImage: {
+    width: '100%',
+    height: '100%',
   },
-  remember: {
-    flexDirection: "row",
-    alignItems: "center",
+  headerImageStyle: {
+    borderBottomLeftRadius: moderateScale(30),
+    borderBottomRightRadius: moderateScale(30),
+  },
+  headerOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(255, 107, 107, 0.85)',
+    paddingHorizontal: moderateScale(20),
+    paddingTop: verticalScale(20),
+    justifyContent: 'space-between',
+    borderBottomLeftRadius: moderateScale(30),
+    borderBottomRightRadius: moderateScale(30),
+  },
+  logoContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'flex-start',
+  },
+  logoIcon: {
+    width: moderateScale(45),
+    height: moderateScale(45),
+    borderRadius: moderateScale(12),
+    backgroundColor: 'rgba(255,255,255,0.2)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: moderateScale(10),
+  },
+  logoText: {
+    fontSize: moderateScale(22),
+    fontWeight: '700',
+    color: '#FFF',
+    letterSpacing: 0.5,
+  },
+  headerContent: {
+    marginBottom: verticalScale(20),
+  },
+  welcomeText: {
+    fontSize: moderateScale(28),
+    fontWeight: 'bold',
+    color: '#FFF',
+    marginBottom: verticalScale(5),
+  },
+  subWelcomeText: {
+    fontSize: moderateScale(14),
+    color: 'rgba(255,255,255,0.85)',
+    marginBottom: verticalScale(20),
+  },
+  formContainer: {
+    flex: 1,
+    marginTop: verticalScale(-30),
+    paddingHorizontal: moderateScale(20),
+  },
+  formCard: {
+    backgroundColor: '#FFF',
+    borderRadius: moderateScale(20),
+    padding: moderateScale(24),
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 20,
+    elevation: 10,
+  },
+  formGroup: {
+    marginBottom: verticalScale(16),
+  },
+  formLabel: {
+    fontSize: moderateScale(14),
+    fontWeight: '600',
+    color: '#333',
+    marginBottom: verticalScale(6),
+  },
+  formInputContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#F8F9FA',
+    borderRadius: moderateScale(12),
+    borderWidth: 1,
+    borderColor: '#E8E8E8',
+    paddingHorizontal: moderateScale(14),
+    paddingVertical: Platform.OS === 'ios' ? verticalScale(4) : 0,
+  },
+  inputIcon: {
+
+  },
+  formInput: {
+    flex: 1,
+    fontSize: moderateScale(15),
+    color: '#333',
+    paddingVertical: Platform.OS === 'ios' ? verticalScale(12) : verticalScale(8),
+    height: moderateScale(50),
+  },
+  eyeIcon: {
+    padding: moderateScale(4),
+  },
+  optionsRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: verticalScale(20),
+  },
+  rememberMe: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   checkbox: {
-    width: 16,
-    height: 16,
-    borderWidth: 1,
-    borderColor: "#999",
-    marginRight: 6,
+    width: moderateScale(20),
+    height: moderateScale(20),
+    borderRadius: moderateScale(4),
+    borderWidth: 2,
+    borderColor: '#E8E8E8',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: moderateScale(8),
   },
-  checkboxChecked: {
-    backgroundColor: "#0e0e0e",
+  checkboxActive: {
+    backgroundColor: '#FF6B6B',
+    borderColor: '#FF6B6B',
   },
-  rememberText: {
-    fontSize: 16,
-    color: "#0e0e0e",
+  rememberMeText: {
+    fontSize: moderateScale(13),
+    color: '#666',
   },
-  forgot: {
-    color: "#0e0e0e",
-    fontSize: 16,
+  forgotPassword: {
+    fontSize: moderateScale(13),
+    color: '#FF6B6B',
+    fontWeight: '600',
   },
-  dividerRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginVertical: 20,
+  loginButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#FF6B6B',
+    paddingVertical: verticalScale(16),
+    borderRadius: moderateScale(12),
+    marginBottom: verticalScale(10),
+    shadowColor: '#FF6B6B',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 10,
+    elevation: 6,
   },
-  line: {
-    flex: 1,
-    height: 1,
-    backgroundColor: "#ddd",
+  loginButtonText: {
+    color: '#FFF',
+    fontSize: moderateScale(18),
+    fontWeight: '700',
+    marginRight: moderateScale(10),
+    letterSpacing: 0.5,
   },
-  or: {
-    marginHorizontal: 10,
-    fontSize: 12,
-    color: "#777",
+  arrowImage: {
+    width: 20,
+    height: 20,
+    resizeMode: 'contain',
+    marginLeft: 10,
+    tintColor: '#FF6B6B',
+    marginRight: moderateScale(10),
   },
-  signup: {
-    textAlign: "center",
-    fontSize: 13,
+  eyeicon: {
+    width: 26,
+    height: 26, resizeMode: 'contain',
+    tintColor: '#FF6B6B',
+    padding: moderateScale(4),
   },
-  signupLink: {
-    color: "#2b7cff",
-    fontWeight: "bold",
+    signuparrowImage: {
+    width: 30,
+    height: 30,
+    resizeMode: 'contain',
+    marginLeft: 5,
+    tintColor: '#ffffff',
+    
   },
 });
+
+export default LoginScreen;
