@@ -18,6 +18,7 @@ import {
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import { useNavigation } from '@react-navigation/native';
 
 const { width, height } = Dimensions.get('window');
 
@@ -41,6 +42,7 @@ const JOB_OPENING_IMAGE = require('../../asset/briefcase.png');
 const SELECTION_IMAGE = require('../../asset/tick.png');
 const JOINING_IMAGE = require('../../asset/man.png');
 const PENDING_IMAGE = require('../../asset/pending.png');
+
 // Mock data for the prototype
 const mockData = {
     stats: {
@@ -73,6 +75,7 @@ const mockData = {
 };
 
 const DashboardScreen = () => {
+
     const [showAllJobs, setShowAllJobs] = useState(false);
     const [modalVisible, setModalVisible] = useState(false);
     const [jobTitle, setJobTitle] = useState('');
@@ -82,7 +85,7 @@ const DashboardScreen = () => {
     const [vacancyCount, setVacancyCount] = useState('');
     const [showLocationSuggestions, setShowLocationSuggestions] = useState(false);
     const [showJobTypeOptions, setShowJobTypeOptions] = useState(false);
-
+    const navigation = useNavigation();
     // Filter locations based on input
     const filteredLocations = mockData.locations.filter(loc =>
         loc.toLowerCase().includes(jobLocation.toLowerCase())
@@ -90,10 +93,9 @@ const DashboardScreen = () => {
 
     // Handle job card press
     const handleJobPress = (job) => {
-        Alert.alert(
-            'Job Details',
-            `Title: ${job.title}\nLocation: ${job.location}\nVacancies: ${job.vacancies}\nSelected: ${job.selected}\nDepartment: ${job.department}`
-        );
+        navigation.navigate('JobDetailsScreen', {
+            jobData: job,
+        });
     };
 
     // Toggle show all jobs
@@ -180,9 +182,9 @@ const DashboardScreen = () => {
                             <Text style={styles.jobTitle} numberOfLines={1}>{item.title}</Text>
                             <View style={styles.jobLocation}>
                                 <Image
-                                source={require('../../asset/location.png')}
-                                style={{height: 16, width: 16, tintColor: '#666',}}
-                            />
+                                    source={require('../../asset/location.png')}
+                                    style={{ height: 16, width: 16, tintColor: '#666', }}
+                                />
                                 <Text style={styles.jobLocationText}>{item.location}</Text>
                             </View>
                         </View>
@@ -194,28 +196,28 @@ const DashboardScreen = () => {
 
                 <View style={styles.jobCardFooter}>
                     <View style={styles.jobStat}>
-                       
+
                         <Image
-                                source={require('../../asset/man.png')}
-                                style={{height: 16, width: 16, tintColor: '#666',}}
-                            />
+                            source={require('../../asset/man.png')}
+                            style={{ height: 16, width: 16, tintColor: '#666', }}
+                        />
                         <Text style={styles.jobStatText}>Vacancies: <Text style={styles.jobStatValue}>{item.vacancies}</Text></Text>
                     </View>
                     <View style={styles.jobStatDivider} />
                     <View style={styles.jobStat}>
                         <Image
-                                source={require('../../asset/tick.png')}
-                                style={{height: 16, width: 16, tintColor: '#666',}}
-                            />
+                            source={require('../../asset/tick.png')}
+                            style={{ height: 16, width: 16, tintColor: '#666', }}
+                        />
                         <Text style={styles.jobStatText}>Selected: <Text style={[styles.jobStatValue, { color: '#4ECDC4' }]}>{item.selected}</Text></Text>
                     </View>
                     <View style={styles.jobStatDivider} />
                     <View style={styles.jobStat}>
-                       
+
                         <Image
-                                source={require('../../asset/skill.png')}
-                                style={{height: 16, width: 16, tintColor: '#45B7D1',}}
-                            />
+                            source={require('../../asset/skill.png')}
+                            style={{ height: 16, width: 16, tintColor: '#45B7D1', }}
+                        />
                         <Text style={styles.jobStatText}>{item.department}</Text>
                     </View>
                 </View>
@@ -242,7 +244,11 @@ const DashboardScreen = () => {
                             <View style={styles.modalHeader}>
                                 <View style={styles.modalHeaderLeft}>
                                     <View style={styles.modalIconContainer}>
-                                        <Ionicons name="add-circle" size={moderateScale(28)} color="#FF6B6B" />
+                                        <Image
+                                            source={require('../../asset/add.png')}
+                                            style={{ height: 28, width: 28, tintColor: '#FF6B6B', }}
+                                        />
+
                                     </View>
                                     <View>
                                         <Text style={styles.modalTitle}>Post a New Job</Text>
@@ -256,7 +262,11 @@ const DashboardScreen = () => {
                                     }}
                                     style={styles.modalCloseButton}
                                 >
-                                    <Ionicons name="close" size={moderateScale(24)} color="#666" />
+                                    <Image
+                                        source={require('../../asset/close.png')}
+                                        style={{ height: 28, width: 28, tintColor: '#666', }}
+                                    />
+
                                 </TouchableOpacity>
                             </View>
 
@@ -265,7 +275,11 @@ const DashboardScreen = () => {
                                 <View style={styles.formGroup}>
                                     <Text style={styles.formLabel}>Job Title <Text style={styles.requiredStar}>*</Text></Text>
                                     <View style={styles.formInputContainer}>
-                                        <Ionicons name="briefcase-outline" size={moderateScale(20)} color="#FF6B6B" style={styles.inputIcon} />
+
+                                        <Image
+                                            source={require('../../asset/briefcase.png')}
+                                            style={{ height: 20, width: 20, tintColor: '#FF6B6B', }}
+                                        />
                                         <TextInput
                                             style={styles.formInput}
                                             placeholder="e.g., Senior React Native Developer"
@@ -280,7 +294,11 @@ const DashboardScreen = () => {
                                 <View style={styles.formGroup}>
                                     <Text style={styles.formLabel}>Job Description <Text style={styles.requiredStar}>*</Text></Text>
                                     <View style={[styles.formInputContainer, styles.textAreaContainer]}>
-                                        <Ionicons name="document-text-outline" size={moderateScale(20)} color="#FF6B6B" style={styles.inputIcon} />
+
+                                        <Image
+                                            source={require('../../asset/paper.png')}
+                                            style={{ height: 20, width: 20, tintColor: '#FF6B6B', }}
+                                        />
                                         <TextInput
                                             style={[styles.formInput, styles.textArea]}
                                             placeholder="Describe the job responsibilities and requirements..."
@@ -298,7 +316,11 @@ const DashboardScreen = () => {
                                 <View style={styles.formGroup}>
                                     <Text style={styles.formLabel}>Job Location <Text style={styles.requiredStar}>*</Text></Text>
                                     <View style={styles.formInputContainer}>
-                                        <Ionicons name="location-outline" size={moderateScale(20)} color="#FF6B6B" style={styles.inputIcon} />
+
+                                        <Image
+                                            source={require('../../asset/pin.png')}
+                                            style={{ height: 20, width: 20, tintColor: '#FF6B6B', }}
+                                        />
                                         <TextInput
                                             style={styles.formInput}
                                             placeholder="Search location..."
@@ -337,11 +359,18 @@ const DashboardScreen = () => {
                                         style={styles.formInputContainer}
                                         onPress={() => setShowJobTypeOptions(!showJobTypeOptions)}
                                     >
-                                        <Ionicons name="business-outline" size={moderateScale(20)} color="#FF6B6B" style={styles.inputIcon} />
+                                        <Image
+                                            source={require('../../asset/type.png')}
+                                            style={{ height: 20, width: 20, tintColor: '#FF6B6B', marginRight: 10 }}
+                                        />
                                         <Text style={[styles.formInput, { color: jobType ? '#333' : '#999' }]}>
                                             {jobType || 'Select job type...'}
                                         </Text>
-                                        <Ionicons name="chevron-down" size={moderateScale(20)} color="#666" style={styles.dropdownIcon} />
+                                        <Image
+                                            source={require('../../asset/chevron-down.png')}
+                                            style={{ height: 20, width: 20, tintColor: '#FF6B6B' }}
+                                        />
+
                                     </TouchableOpacity>
 
                                     {showJobTypeOptions && (
@@ -369,7 +398,10 @@ const DashboardScreen = () => {
                                 <View style={styles.formGroup}>
                                     <Text style={styles.formLabel}>Vacancy Count <Text style={styles.requiredStar}>*</Text></Text>
                                     <View style={styles.formInputContainer}>
-                                        <Ionicons name="people-outline" size={moderateScale(20)} color="#FF6B6B" style={styles.inputIcon} />
+                                        <Image
+                                            source={require('../../asset/audience.png')}
+                                            style={{ height: 20, width: 20, tintColor: '#FF6B6B' }}
+                                        />
                                         <TextInput
                                             style={styles.formInput}
                                             placeholder="Number of openings..."
@@ -384,20 +416,34 @@ const DashboardScreen = () => {
                                 {/* Boost Text */}
                                 <View style={styles.boostContainer}>
                                     <View style={styles.boostHeader}>
-                                        <Ionicons name="rocket" size={moderateScale(20)} color="#FF6B6B" />
+
+                                        <Image
+                                            source={require('../../asset/rocket.png')}
+                                            style={{ height: 20, width: 20, }}
+                                        />
                                         <Text style={styles.boostTitle}>🚀 Boost Your Job Posting</Text>
                                     </View>
                                     <View style={styles.boostContent}>
                                         <View style={styles.boostItem}>
-                                            <Ionicons name="checkmark-circle" size={moderateScale(16)} color="#4ECDC4" />
+                                            <Image
+                                                source={require('../../asset/check.png')}
+                                                style={{ height: 16, width: 16, tintColor: '#4ECDC4', }}
+                                            />
+
                                             <Text style={styles.boostText}>Get 2x more applications</Text>
                                         </View>
                                         <View style={styles.boostItem}>
-                                            <Ionicons name="checkmark-circle" size={moderateScale(16)} color="#4ECDC4" />
+                                            <Image
+                                                source={require('../../asset/check.png')}
+                                                style={{ height: 16, width: 16, tintColor: '#4ECDC4', }}
+                                            />
                                             <Text style={styles.boostText}>Featured on top of listings</Text>
                                         </View>
                                         <View style={styles.boostItem}>
-                                            <Ionicons name="checkmark-circle" size={moderateScale(16)} color="#4ECDC4" />
+                                            <Image
+                                                source={require('../../asset/check.png')}
+                                                style={{ height: 16, width: 16, tintColor: '#4ECDC4', }}
+                                            />
                                             <Text style={styles.boostText}>Reach qualified candidates faster</Text>
                                         </View>
                                     </View>
@@ -418,7 +464,11 @@ const DashboardScreen = () => {
                                         style={[styles.modalButton, styles.submitButton]}
                                         onPress={handleAddJob}
                                     >
-                                        <Ionicons name="add-circle" size={moderateScale(20)} color="#FFF" />
+                                        <Image
+                                            source={require('../../asset/add.png')}
+                                            style={{ height: 20, width: 20, tintColor: '#FFF', }}
+                                        />
+
                                         <Text style={styles.submitButtonText}>Post Job</Text>
                                     </TouchableOpacity>
                                 </View>
@@ -450,7 +500,7 @@ const DashboardScreen = () => {
                             {/* <Ionicons name="notifications-outline" size={moderateScale(24)} color="#333" /> */}
                             <Image
                                 source={require('../../asset/bell.png')}
-                                style={{height: 24, width: 24, tintColor: '#333',}}
+                                style={{ height: 24, width: 24, tintColor: '#333', }}
                             />
                             <View style={styles.notificationBadge}>
                                 <Text style={styles.badgeText}>3</Text>
@@ -514,11 +564,11 @@ const DashboardScreen = () => {
                         onPress={() => setModalVisible(true)}
                         activeOpacity={0.8}
                     >
-                         <Image
-                                source={require('../../asset/add.png')}
-                                style={{height: 20, width: 20, tintColor: '#FFF',}}
-                            />
-                        
+                        <Image
+                            source={require('../../asset/add.png')}
+                            style={{ height: 20, width: 20, tintColor: '#FFF', }}
+                        />
+
                         <Text style={styles.addJobButtonText}>Add Job</Text>
                     </TouchableOpacity>
                 </View>
@@ -541,9 +591,9 @@ const DashboardScreen = () => {
                     >
                         <Text style={styles.viewAllButtonText}>View All Jobs</Text>
                         <Image
-                                source={require('../../asset/arrow.png')}
-                                style={{height: 16, width: 16, tintColor: '#FF6B6B',}}
-                            />
+                            source={require('../../asset/arrow.png')}
+                            style={{ height: 16, width: 16, tintColor: '#FF6B6B', }}
+                        />
                     </TouchableOpacity>
                 )}
 
@@ -553,10 +603,10 @@ const DashboardScreen = () => {
                         onPress={toggleShowAllJobs}
                         activeOpacity={0.8}
                     >
-                       <Image
-                                source={require('../../asset/top.png')}
-                                style={{height: 16, width: 16, tintColor: '#FF6B6B',}}
-                            />
+                        <Image
+                            source={require('../../asset/top.png')}
+                            style={{ height: 16, width: 16, tintColor: '#FF6B6B', }}
+                        />
                         <Text style={styles.viewAllButtonText}>Show Less</Text>
                     </TouchableOpacity>
                 )}
